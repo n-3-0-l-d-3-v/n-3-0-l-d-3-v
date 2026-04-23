@@ -8,6 +8,7 @@
 CS major building systems, breaking them, and understanding why they break.<br>
 Now moving from full stack → FARM, focused on AI workflows and backend systems that scale.
 
+---
 
 ## What I’m doing
 
@@ -20,7 +21,6 @@ exploring:
 * systems that handle real users
 * retention and product thinking
 
----
 
 ## Selected Work
 
@@ -47,7 +47,6 @@ products that didn’t scale as expected<br>
 built scalable apps for small businesses<br>
 → focused on real-world reliability.
 
----
 
 <h2>
 Stack & Tools&nbsp;
@@ -114,7 +113,6 @@ TensorFlow, Pandas, NumPy
 </tr>
 </table>
 
----
 
 <h2>
 Outside Work&nbsp;
@@ -130,7 +128,6 @@ I run to show that i touch grass.
 
 I listen to music while building.
 
----
 
 ## How I think
 
@@ -140,7 +137,6 @@ I listen to music while building.
 * consistency > intensity
 * learn fast, verify everything
 
----
 
 <h2>
 Find me on&nbsp;
