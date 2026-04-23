@@ -49,28 +49,28 @@ built scalable apps for small businesses<br>
 
 
 <h2>
-Stack & Tools&nbsp;
-<img src="https://cdn.simpleicons.org/javascript/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/typescript/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/python/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/react/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/nextdotjs/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/node.js/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/express/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/postgresql/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/mongodb/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/supabase/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/docker/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/git/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/figma/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/tailwindcss/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/prisma/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/vercel/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/n8n/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/googlecloud/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/tensorflow/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/pandas/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/numpy/555555" height="20"/>
+Stack & Tools
+<img src="https://cdn.simpleicons.org/javascript/cccccc" height="22"/>
+<img src="https://cdn.simpleicons.org/typescript/cccccc" height="22"/>
+<img src="https://cdn.simpleicons.org/python/cccccc" height="22"/>
+<img src="https://cdn.simpleicons.org/react/cccccc" height="22"/>
+<img src="https://cdn.simpleicons.org/nextdotjs/cccccc" height="22"/>
+<img src="https://cdn.simpleicons.org/node.js/cccccc" height="22"/>
+<img src="https://cdn.simpleicons.org/express/cccccc" height="22"/>
+<img src="https://cdn.simpleicons.org/postgresql/cccccc" height="22"/>
+<img src="https://cdn.simpleicons.org/mongodb/cccccc" height="22"/>
+<img src="https://cdn.simpleicons.org/supabase/cccccc" height="22"/>
+<img src="https://cdn.simpleicons.org/docker/cccccc" height="22"/>
+<img src="https://cdn.simpleicons.org/git/cccccc" height="22"/>
+<img src="https://cdn.simpleicons.org/figma/cccccc" height="22"/>
+<img src="https://cdn.simpleicons.org/tailwindcss/cccccc" height="22"/>
+<img src="https://cdn.simpleicons.org/prisma/cccccc" height="22"/>
+<img src="https://cdn.simpleicons.org/vercel/cccccc" height="22"/>
+<img src="https://cdn.simpleicons.org/n8n/cccccc" height="22"/>
+<img src="https://cdn.simpleicons.org/googlecloud/cccccc" height="22"/>
+<img src="https://cdn.simpleicons.org/tensorflow/cccccc" height="22"/>
+<img src="https://cdn.simpleicons.org/pandas/cccccc" height="22"/>
+<img src="https://cdn.simpleicons.org/numpy/cccccc" height="22"/>
 </h2>
 
 <table>
