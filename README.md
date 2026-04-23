@@ -143,11 +143,9 @@ Find me on&nbsp;
 <a href="https://github.com/n-3-0-l-d-3-v">
   <img align="center" src="https://img.icons8.com/ios-glyphs/30/cccccc/github.png"/>
 </a>
-&nbsp;
 <a href="https://linkedin.com/in/neil-thomas-mathew-a17376316">
   <img align="center" src="https://img.icons8.com/ios-glyphs/30/cccccc/linkedin.png"/>
 </a>
-&nbsp;
 <a href="https://discord.com/users/_n30l_">
   <img align="center" src="https://img.icons8.com/ios-glyphs/30/cccccc/discord-logo.png"/>
 </a>
