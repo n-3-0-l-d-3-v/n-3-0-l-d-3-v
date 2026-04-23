@@ -144,14 +144,13 @@ Find me on&nbsp;
   <img src="https://cdn.simpleicons.org/github/555555" height="22"/>
 </a>
 <a href="https://linkedin.com/in/neil-thomas-mathew-a17376316">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="22" style="filter: grayscale(100%) brightness(40%);"/>
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/linkedin.svg" height="22" style="fill:#555555;"/>
 </a>
 <a href="https://discord.com/users/_n30l_">
   <img src="https://cdn.simpleicons.org/discord/555555" height="22"/>
 </a>
 </h2>
 
----
 
 <p align="center">
 • still building •
