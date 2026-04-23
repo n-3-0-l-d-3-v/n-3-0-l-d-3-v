@@ -60,42 +60,60 @@ built scalable apps for small businesses
 
 <h2>
 Stack & Tools&nbsp;
-<img src="https://cdn.simpleicons.org/javascript/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/typescript/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/python/555555" height="20"/>
 <img src="https://cdn.simpleicons.org/react/555555" height="20"/>
 <img src="https://cdn.simpleicons.org/nextdotjs/555555" height="20"/>
 <img src="https://cdn.simpleicons.org/node.js/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/fastapi/555555" height="20"/>
 <img src="https://cdn.simpleicons.org/postgresql/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/mongodb/555555" height="20"/>
 <img src="https://cdn.simpleicons.org/supabase/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/docker/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/n8n/555555" height="20"/>
 <img src="https://cdn.simpleicons.org/git/555555" height="20"/>
 </h2>
 
-Languages → JavaScript, TypeScript, Python
+<table>
+<tr>
+<td valign="top">
 
-Frontend → React, Next.js
+**Stack**
 
-Backend → Node.js, Express, Hono
+JavaScript / TypeScript
+Python
 
-Database → PostgreSQL (primary)
+React / Next.js
+
+Node.js / Express / Hono
+FastAPI
+
+PostgreSQL (primary)
 MongoDB (previous)
 
-Infra → Vercel, Supabase
+Supabase (auth + storage)
 
-Core Practices
+</td>
 
-API design
-authentication
-rate limiting
+<td valign="top">
 
-testing
-CI/CD
-performance
+**Tools & Systems**
 
-observability
-debugging
+Git (clean history)
+Docker (containerization)
 
+CI/CD pipelines
+API design & auth flows
+
+Rate limiting & security
+Performance optimization
+
+Observability & logging
+
+n8n (automation workflows)
 AI-assisted development
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -115,7 +133,7 @@ music in the background while building
 
 ---
 
-## Principles
+## How I think
 
 * build things people use
 * simple > clever (until it breaks)
@@ -133,8 +151,8 @@ Find me&nbsp;
 <a href="https://linkedin.com/in/neil-thomas-mathew-a17376316/">
   <img src="https://cdn.simpleicons.org/linkedin/555555" height="22"/>
 </a>
-<a href="https://neilthomasmathew.vercel.app">
-  <img src="https://cdn.simpleicons.org/googlechrome/555555" height="22"/>
+<a href="https://discord.com/users/your-id">
+  <img src="https://cdn.simpleicons.org/discord/555555" height="22"/>
 </a>
 </h2>
 
