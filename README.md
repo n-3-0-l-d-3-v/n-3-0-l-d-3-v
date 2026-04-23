@@ -1,4 +1,7 @@
-# Hi, I'm Neil ↗︎ [portfolio](https://neilthomasmathew.vercel.app)
+<h1>
+  Hi, I'm Neil 
+  <a href="https://neilthomasmathew.vercel.app" style="text-decoration:none;">↗︎ portfolio</a>
+</h1>
 
 CS student building systems, breaking them, and understanding why they break.
 Currently moving from full stack → FARM, focused on AI workflows and backend systems that scale.
@@ -25,8 +28,8 @@ AI-native workflows with agent-based execution
 → not just generating text, but actually performing actions
 
 **FOCUS (ML / Therapeutic Project)**
-OpenCV + ML-based behavioral tracking system
-→ adaptive difficulty and real-time feedback
+OpenCV + ML-based behavioral tracking
+→ adaptive difficulty + real-time feedback
 
 **startup attempts**
 products that didn’t scale as expected
@@ -34,25 +37,32 @@ products that didn’t scale as expected
 
 **freelance work**
 built scalable apps for small businesses
-→ focused on real-world usage and reliability
+→ focused on real-world reliability
 
 ---
 
+<table width="100%">
+<tr>
+<td>
+
 ## Stack & Tools
 
-<p align="left">
-  <img src="https://cdn.simpleicons.org/javascript/555555" height="26" />
-  <img src="https://cdn.simpleicons.org/typescript/555555" height="26" />
-  <img src="https://cdn.simpleicons.org/python/555555" height="26" />
-  <img src="https://cdn.simpleicons.org/react/555555" height="26" />
-  <img src="https://cdn.simpleicons.org/nextdotjs/555555" height="26" />
-  <img src="https://cdn.simpleicons.org/node.js/555555" height="26" />
-  <img src="https://cdn.simpleicons.org/express/555555" height="26" />
-  <img src="https://cdn.simpleicons.org/postgresql/555555" height="26" />
-  <img src="https://cdn.simpleicons.org/supabase/555555" height="26" />
-  <img src="https://cdn.simpleicons.org/git/555555" height="26" />
-  <img src="https://cdn.simpleicons.org/docker/555555" height="26" />
-</p>
+</td>
+<td align="right">
+
+<img src="https://cdn.simpleicons.org/javascript/555555" height="24"/>
+<img src="https://cdn.simpleicons.org/typescript/555555" height="24"/>
+<img src="https://cdn.simpleicons.org/python/555555" height="24"/>
+<img src="https://cdn.simpleicons.org/react/555555" height="24"/>
+<img src="https://cdn.simpleicons.org/nextdotjs/555555" height="24"/>
+<img src="https://cdn.simpleicons.org/node.js/555555" height="24"/>
+<img src="https://cdn.simpleicons.org/postgresql/555555" height="24"/>
+<img src="https://cdn.simpleicons.org/supabase/555555" height="24"/>
+<img src="https://cdn.simpleicons.org/git/555555" height="24"/>
+
+</td>
+</tr>
+</table>
 
 **Languages** → JavaScript, TypeScript, Python
 **Frontend** → React, Next.js
@@ -62,23 +72,31 @@ built scalable apps for small businesses
 
 **Core Practices**
 API design · authentication · rate limiting
-testing (unit + integration) · CI/CD
-performance (queries, caching)
-observability (logs, debugging)
-AI-assisted development (used intentionally)
+testing · CI/CD · performance
+observability · debugging
+AI-assisted development
 
 ---
 
+<table width="100%">
+<tr>
+<td>
+
 ## Outside Work
 
-<p align="left">
-  <a href="https://your-strava-link">
-    <img src="https://cdn.simpleicons.org/strava/555555" height="26" />
-  </a>
-  <a href="https://your-spotify-link">
-    <img src="https://cdn.simpleicons.org/spotify/555555" height="26" />
-  </a>
-</p>
+</td>
+<td align="right">
+
+<a href="https://your-strava-link">
+  <img src="https://cdn.simpleicons.org/strava/555555" height="24"/>
+</a>
+<a href="https://your-spotify-link">
+  <img src="https://cdn.simpleicons.org/spotify/555555" height="24"/>
+</a>
+
+</td>
+</tr>
+</table>
 
 running (to stay functional outside the terminal)
 music in the background while building
@@ -99,20 +117,18 @@ music in the background while building
 
 <p align="center">
   <a href="https://github.com/n-3-0-l-d-3-v">
-    <img src="https://cdn.simpleicons.org/github/555555" height="30" />
+    <img src="https://cdn.simpleicons.org/github/555555" height="28"/>
   </a>
   <a href="https://linkedin.com/in/neil-thomas-mathew-a17376316/">
-    <img src="https://cdn.simpleicons.org/linkedin/555555" height="30" />
+    <img src="https://cdn.simpleicons.org/linkedin/555555" height="28"/>
   </a>
   <a href="https://neilthomasmathew.vercel.app">
-    <img src="https://cdn.simpleicons.org/googlechrome/555555" height="30" />
+    <img src="https://cdn.simpleicons.org/googlechrome/555555" height="28"/>
   </a>
 </p>
 
 ---
 
 <p align="center">
-
 building • learning • iterating
-
 </p>
