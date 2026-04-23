@@ -1,6 +1,8 @@
 <h1>
   Hi, I'm Neil 
-  <a href="https://neilthomasmathew.vercel.app" style="text-decoration:none;">↗︎ portfolio</a>
+  <a href="https://neilthomasmathew.vercel.app">
+    <img src="https://img.icons8.com/ios-filled/20/ffffff/up-right-arrow.png"/>
+  </a>
 </h1>
 
 CS student building systems, breaking them, and understanding why they break.
@@ -11,6 +13,7 @@ Currently moving from full stack → FARM, focused on AI workflows and backend s
 ## What I’m doing
 
 building a platform for game developers
+
 → a place to showcase, collaborate, and ship together
 
 exploring:
@@ -24,81 +27,92 @@ exploring:
 ## Selected Work
 
 **Quero (AI Gmail client)**
+
 AI-native workflows with agent-based execution
+
 → not just generating text, but actually performing actions
 
+---
+
 **FOCUS (ML / Therapeutic Project)**
+
 OpenCV + ML-based behavioral tracking
+
 → adaptive difficulty + real-time feedback
 
+---
+
 **startup attempts**
+
 products that didn’t scale as expected
+
 → shaped how I think about users and systems
 
+---
+
 **freelance work**
+
 built scalable apps for small businesses
+
 → focused on real-world reliability
 
 ---
 
-<table width="100%">
-<tr>
-<td>
-
 ## Stack & Tools
 
-</td>
-<td align="right">
+<p align="right">
+  <img src="https://cdn.simpleicons.org/javascript/555555" height="24"/>
+  <img src="https://cdn.simpleicons.org/typescript/555555" height="24"/>
+  <img src="https://cdn.simpleicons.org/python/555555" height="24"/>
+  <img src="https://cdn.simpleicons.org/react/555555" height="24"/>
+  <img src="https://cdn.simpleicons.org/nextdotjs/555555" height="24"/>
+  <img src="https://cdn.simpleicons.org/node.js/555555" height="24"/>
+  <img src="https://cdn.simpleicons.org/postgresql/555555" height="24"/>
+  <img src="https://cdn.simpleicons.org/supabase/555555" height="24"/>
+  <img src="https://cdn.simpleicons.org/git/555555" height="24"/>
+</p>
 
-<img src="https://cdn.simpleicons.org/javascript/555555" height="24"/>
-<img src="https://cdn.simpleicons.org/typescript/555555" height="24"/>
-<img src="https://cdn.simpleicons.org/python/555555" height="24"/>
-<img src="https://cdn.simpleicons.org/react/555555" height="24"/>
-<img src="https://cdn.simpleicons.org/nextdotjs/555555" height="24"/>
-<img src="https://cdn.simpleicons.org/node.js/555555" height="24"/>
-<img src="https://cdn.simpleicons.org/postgresql/555555" height="24"/>
-<img src="https://cdn.simpleicons.org/supabase/555555" height="24"/>
-<img src="https://cdn.simpleicons.org/git/555555" height="24"/>
+Languages → JavaScript, TypeScript, Python
 
-</td>
-</tr>
-</table>
+Frontend → React, Next.js
 
-**Languages** → JavaScript, TypeScript, Python
-**Frontend** → React, Next.js
-**Backend** → Node.js, Express, Hono
-**Database** → PostgreSQL (primary), MongoDB (previous)
-**Infra** → Vercel, Supabase
+Backend → Node.js, Express, Hono
 
-**Core Practices**
-API design · authentication · rate limiting
-testing · CI/CD · performance
-observability · debugging
+Database → PostgreSQL (primary)
+MongoDB (previous)
+
+Infra → Vercel, Supabase
+
+Core Practices
+
+API design
+authentication
+rate limiting
+
+testing
+CI/CD
+performance
+
+observability
+debugging
+
 AI-assisted development
 
 ---
 
-<table width="100%">
-<tr>
-<td>
-
 ## Outside Work
 
-</td>
-<td align="right">
-
-<a href="https://your-strava-link">
-  <img src="https://cdn.simpleicons.org/strava/555555" height="24"/>
-</a>
-<a href="https://your-spotify-link">
-  <img src="https://cdn.simpleicons.org/spotify/555555" height="24"/>
-</a>
-
-</td>
-</tr>
-</table>
+<p align="right">
+  <a href="https://your-strava-link">
+    <img src="https://cdn.simpleicons.org/strava/555555" height="24"/>
+  </a>
+  <a href="https://your-spotify-link">
+    <img src="https://cdn.simpleicons.org/spotify/555555" height="24"/>
+  </a>
+</p>
 
 running (to stay functional outside the terminal)
+
 music in the background while building
 
 ---
