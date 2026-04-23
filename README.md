@@ -5,15 +5,14 @@
   </a>
 </h1>
 
-CS student building systems, breaking them, and understanding why they break.<br>
-Currently moving from full stack → FARM, focused on AI workflows and backend systems that scale.
+CS major building systems, breaking them, and understanding why they break.<br>
+Now moving from full stack → FARM, focused on AI workflows and backend systems that scale.
 
 ---
 
 ## What I’m doing
 
-building a platform for game developers
-
+building a platform for game developers<br>
 → a place to showcase, collaborate, and ship together
 
 exploring:
@@ -106,9 +105,7 @@ GitHub Actions, Postman
 
 Prisma ORM, Supabase Studio
 
-Vercel, Railway
-
-Figma (design)
+Vercel, Railway, Figma
 
 n8n (automation workflows)
 
@@ -130,9 +127,9 @@ Outside Work&nbsp;
 </a>
 </h2>
 
-I run to show that i touch grass
+I run to show that i touch grass.
 
-I listen to music while building
+I listen to music while building.
 
 ---
 
