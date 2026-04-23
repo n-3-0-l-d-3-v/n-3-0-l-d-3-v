@@ -29,28 +29,24 @@ exploring:
 **Quero (AI Gmail client)**
 
 AI-native workflows with agent-based execution
-
 → not just generating text, but actually performing actions
 
 
 **FOCUS (ML / Therapeutic Project)**
 
 OpenCV + ML-based behavioral tracking
-
 → adaptive difficulty + real-time feedback
 
 
 **startup attempts**
 
 products that didn’t scale as expected
-
 → shaped how I think about users and systems
 
 
 **freelance work**
 
 built scalable apps for small businesses
-
 → focused on real-world reliability
 
 ---
