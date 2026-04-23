@@ -8,12 +8,11 @@
 CS major building systems, breaking them, and understanding why they break.<br>
 Now moving from full stack → FARM, focused on AI workflows and backend systems that scale.
 
----
 
 ## What I’m doing
 
 building a platform for game developers<br>
-→ a place to showcase, collaborate, and ship together
+→ a place to showcase, collaborate, and ship together.
 
 exploring:
 
@@ -28,25 +27,25 @@ exploring:
 **Quero (AI Gmail client)**
 
 AI-native workflows with agent-based execution<br>
-→ not just generating text, but actually performing actions
+→ not just generating text, but actually performing actions.
 
 
 **FOCUS (ML / Therapeutic Project)**
 
 OpenCV + ML-based behavioral tracking<br>
-→ adaptive difficulty + real-time feedback
+→ adaptive difficulty + real-time feedback.
 
 
 **startup attempts**
 
 products that didn’t scale as expected<br>
-→ shaped how I think about users and systems
+→ shaped how I think about users and systems.
 
 
-**freelance work**
+**freelance works**
 
 built scalable apps for small businesses<br>
-→ focused on real-world reliability
+→ focused on real-world reliability.
 
 ---
 
@@ -107,7 +106,7 @@ Prisma ORM, Supabase Studio
 
 Vercel, Railway, Figma
 
-n8n (automation workflows)
+N8n (automation workflows)
 
 TensorFlow, Pandas, NumPy
 
@@ -148,10 +147,10 @@ Find me on&nbsp;
 <a href="https://github.com/n-3-0-l-d-3-v">
   <img src="https://cdn.simpleicons.org/github/555555" height="22"/>
 </a>
-<a href="https://linkedin.com/in/neil-thomas-mathew-a17376316/">
+<a href="https://linkedin.com/in/neil-thomas-mathew-a17376316">
   <img src="https://cdn.simpleicons.org/linkedin/555555" height="22"/>
 </a>
-<a href="https://discord.com/users/your-id">
+<a href="https://discord.com/users/_n30l_">
   <img src="https://cdn.simpleicons.org/discord/555555" height="22"/>
 </a>
 </h2>
@@ -159,5 +158,5 @@ Find me on&nbsp;
 ---
 
 <p align="center">
-building • learning • iterating
+• still building •
 </p>
