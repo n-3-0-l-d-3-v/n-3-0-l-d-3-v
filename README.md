@@ -1,9 +1,12 @@
-<div style="font-size: 2.5em; font-weight: 700;">
-  Hi, I'm Neil 
+<p>
+  <strong>Hi, I'm Neil</strong>
   <a href="https://neilthomasmathew.vercel.app">
     <img src="https://img.icons8.com/ios-filled/20/ffffff/up-right-arrow.png"/>
   </a>
-</div>
+</p>
+
+<strong>Hi, I'm Neil</strong>  
+<strong>Hi, I'm Neil</strong>
 
 CS major building systems, breaking them, and understanding why they break.<br>
 Now moving from full stack → FARM, focused on AI workflows and backend systems that scale.
