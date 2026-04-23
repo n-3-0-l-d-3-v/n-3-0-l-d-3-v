@@ -49,7 +49,7 @@ built scalable apps for small businesses<br>
 
 
 <h2>
-Stack & Tools
+Stack & Tools&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://cdn.simpleicons.org/javascript/cccccc" height="22"/>
 <img src="https://cdn.simpleicons.org/typescript/cccccc" height="22"/>
 <img src="https://cdn.simpleicons.org/python/cccccc" height="22"/>
