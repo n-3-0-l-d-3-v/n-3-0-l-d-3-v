@@ -6,7 +6,6 @@
 </h1>
 
 CS student building systems, breaking them, and understanding why they break.
-
 Currently moving from full stack → FARM, focused on AI workflows and backend systems that scale.
 
 ---
@@ -61,15 +60,17 @@ built scalable apps for small businesses
 
 ## Stack & Tools
 
-<img src="https://cdn.simpleicons.org/javascript/555555" height="22"/>
-<img src="https://cdn.simpleicons.org/typescript/555555" height="22"/>
-<img src="https://cdn.simpleicons.org/python/555555" height="22"/>
-<img src="https://cdn.simpleicons.org/react/555555" height="22"/>
-<img src="https://cdn.simpleicons.org/nextdotjs/555555" height="22"/>
-<img src="https://cdn.simpleicons.org/node.js/555555" height="22"/>
-<img src="https://cdn.simpleicons.org/postgresql/555555" height="22"/>
-<img src="https://cdn.simpleicons.org/supabase/555555" height="22"/>
-<img src="https://cdn.simpleicons.org/git/555555" height="22"/>
+<span>
+<img src="https://cdn.simpleicons.org/javascript/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/typescript/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/python/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/react/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/nextdotjs/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/node.js/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/postgresql/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/supabase/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/git/555555" height="20"/>
+</span>
 
 Languages → JavaScript, TypeScript, Python
 
@@ -101,12 +102,14 @@ AI-assisted development
 
 ## Outside Work
 
+<span>
 <a href="https://your-strava-link">
-  <img src="https://cdn.simpleicons.org/strava/555555" height="22"/>
+  <img src="https://cdn.simpleicons.org/strava/555555" height="20"/>
 </a>
 <a href="https://your-spotify-link">
-  <img src="https://cdn.simpleicons.org/spotify/555555" height="22"/>
+  <img src="https://cdn.simpleicons.org/spotify/555555" height="20"/>
 </a>
+</span>
 
 running (to stay functional outside the terminal)
 
@@ -126,17 +129,17 @@ music in the background while building
 
 ## Find me
 
-<p align="center">
-  <a href="https://github.com/n-3-0-l-d-3-v">
-    <img src="https://cdn.simpleicons.org/github/555555" height="28"/>
-  </a>
-  <a href="https://linkedin.com/in/neil-thomas-mathew-a17376316/">
-    <img src="https://cdn.simpleicons.org/linkedin/555555" height="28"/>
-  </a>
-  <a href="https://neilthomasmathew.vercel.app">
-    <img src="https://cdn.simpleicons.org/googlechrome/555555" height="28"/>
-  </a>
-</p>
+<span>
+<a href="https://github.com/n-3-0-l-d-3-v">
+  <img src="https://cdn.simpleicons.org/github/555555" height="24"/>
+</a>
+<a href="https://linkedin.com/in/neil-thomas-mathew-a17376316/">
+  <img src="https://cdn.simpleicons.org/linkedin/555555" height="24"/>
+</a>
+<a href="https://neilthomasmathew.vercel.app">
+  <img src="https://cdn.simpleicons.org/googlechrome/555555" height="24"/>
+</a>
+</span>
 
 ---
 
