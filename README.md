@@ -141,13 +141,13 @@ I listen to music while building.
 <h2>
 Find me on&nbsp;
 <a href="https://github.com/n-3-0-l-d-3-v">
-  <img src="https://cdn.simpleicons.org/github/555555" height="22"/>
+  <img src="https://api.iconify.design/simple-icons/github.svg?color=AAAAAA&v=1" height="26" width="26"/>
 </a>
 <a href="https://linkedin.com/in/neil-thomas-mathew-a17376316">
-  <img src="https://api.iconify.design/simple-icons/linkedin.svg?color=AAAAAA&v=2" height="26"/>
+  <img src="https://api.iconify.design/simple-icons/linkedin.svg?color=AAAAAA&v=1" height="26" width="26"/>
 </a>
 <a href="https://discord.com/users/_n30l_">
-  <img src="https://cdn.simpleicons.org/discord/555555" height="22"/>
+  <img src="https://api.iconify.design/simple-icons/discord.svg?color=AAAAAA&v=1" height="26" width="26"/>
 </a>
 </h2>
 
