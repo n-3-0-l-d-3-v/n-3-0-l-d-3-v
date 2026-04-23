@@ -144,7 +144,9 @@ Find me on&nbsp;
   <img src="https://cdn.simpleicons.org/github/555555" height="22"/>
 </a>
 <a href="https://linkedin.com/in/neil-thomas-mathew-a17376316">
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/linkedin.svg" height="22" style="fill:#555555;"/>
+  <svg height="22" viewBox="0 0 24 24" fill="#555555" xmlns="http://www.w3.org/2000/svg">
+    <path d="M20.447 20.452h-3.554v-5.569c0-1.327-.025-3.036-1.849-3.036-1.851 0-2.135 1.445-2.135 2.939v5.666H9.356V9h3.414v1.561h.049c.476-.9 1.637-1.849 3.369-1.849 3.602 0 4.267 2.37 4.267 5.455v6.285zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM6.814 20.452H3.861V9h2.953v11.452zM22.225 0H1.771C.792 0 0 .771 0 1.723v20.549C0 23.229.792 24 1.771 24h20.451C23.2 24 24 23.229 24 22.271V1.723C24 .771 23.2 0 22.222 0z"/>
+  </svg>
 </a>
 <a href="https://discord.com/users/_n30l_">
   <img src="https://cdn.simpleicons.org/discord/555555" height="22"/>
