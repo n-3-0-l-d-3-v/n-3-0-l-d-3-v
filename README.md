@@ -60,16 +60,28 @@ built scalable apps for small businesses
 
 <h2>
 Stack & Tools&nbsp;
+<img src="https://cdn.simpleicons.org/javascript/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/typescript/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/python/555555" height="20"/>
 <img src="https://cdn.simpleicons.org/react/555555" height="20"/>
 <img src="https://cdn.simpleicons.org/nextdotjs/555555" height="20"/>
 <img src="https://cdn.simpleicons.org/node.js/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/fastapi/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/express/555555" height="20"/>
 <img src="https://cdn.simpleicons.org/postgresql/555555" height="20"/>
 <img src="https://cdn.simpleicons.org/mongodb/555555" height="20"/>
 <img src="https://cdn.simpleicons.org/supabase/555555" height="20"/>
 <img src="https://cdn.simpleicons.org/docker/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/n8n/555555" height="20"/>
 <img src="https://cdn.simpleicons.org/git/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/figma/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/tailwindcss/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/prisma/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/vercel/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/n8n/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/openai/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/googlecloud/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/tensorflow/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/pandas/555555" height="20"/>
+<img src="https://cdn.simpleicons.org/numpy/555555" height="20"/>
 </h2>
 
 <table>
@@ -91,25 +103,35 @@ MongoDB (previous)
 
 Supabase (auth + storage)
 
+Tailwind CSS
+
 </td>
 
 <td valign="top">
 
 **Tools & Systems**
 
-Git (clean history)
-Docker (containerization)
+Git
+Docker
 
 CI/CD pipelines
-API design & auth flows
+API design
 
-Rate limiting & security
+Auth & security
+Rate limiting
+
 Performance optimization
+Observability
 
-Observability & logging
+Figma (design workflows)
 
-n8n (automation workflows)
-AI-assisted development
+n8n (automation)
+
+AI / ML
+
+OpenAI APIs
+TensorFlow
+Pandas / NumPy
 
 </td>
 </tr>
@@ -148,7 +170,7 @@ Find me&nbsp;
 <a href="https://github.com/n-3-0-l-d-3-v">
   <img src="https://cdn.simpleicons.org/github/555555" height="22"/>
 </a>
-<a href="https://linkedin.com/in/neil-thomas-mathew-a17376316/">
+<a href="https://cdn.simpleicons.org/linkedin/555555" height="22"/>
   <img src="https://cdn.simpleicons.org/linkedin/555555" height="22"/>
 </a>
 <a href="https://discord.com/users/your-id">
