@@ -6,6 +6,7 @@
 </h1>
 
 CS student building systems, breaking them, and understanding why they break.
+
 Currently moving from full stack → FARM, focused on AI workflows and backend systems that scale.
 
 ---
@@ -29,41 +30,46 @@ exploring:
 **Quero (AI Gmail client)**
 
 AI-native workflows with agent-based execution
+
 → not just generating text, but actually performing actions
 
+---
 
 **FOCUS (ML / Therapeutic Project)**
 
 OpenCV + ML-based behavioral tracking
+
 → adaptive difficulty + real-time feedback
 
+---
 
 **startup attempts**
 
 products that didn’t scale as expected
+
 → shaped how I think about users and systems
 
+---
 
 **freelance work**
 
 built scalable apps for small businesses
+
 → focused on real-world reliability
 
 ---
 
 ## Stack & Tools
 
-<p align="right">
-  <img src="https://cdn.simpleicons.org/javascript/555555" height="24"/>
-  <img src="https://cdn.simpleicons.org/typescript/555555" height="24"/>
-  <img src="https://cdn.simpleicons.org/python/555555" height="24"/>
-  <img src="https://cdn.simpleicons.org/react/555555" height="24"/>
-  <img src="https://cdn.simpleicons.org/nextdotjs/555555" height="24"/>
-  <img src="https://cdn.simpleicons.org/node.js/555555" height="24"/>
-  <img src="https://cdn.simpleicons.org/postgresql/555555" height="24"/>
-  <img src="https://cdn.simpleicons.org/supabase/555555" height="24"/>
-  <img src="https://cdn.simpleicons.org/git/555555" height="24"/>
-</p>
+<img src="https://cdn.simpleicons.org/javascript/555555" height="22"/>
+<img src="https://cdn.simpleicons.org/typescript/555555" height="22"/>
+<img src="https://cdn.simpleicons.org/python/555555" height="22"/>
+<img src="https://cdn.simpleicons.org/react/555555" height="22"/>
+<img src="https://cdn.simpleicons.org/nextdotjs/555555" height="22"/>
+<img src="https://cdn.simpleicons.org/node.js/555555" height="22"/>
+<img src="https://cdn.simpleicons.org/postgresql/555555" height="22"/>
+<img src="https://cdn.simpleicons.org/supabase/555555" height="22"/>
+<img src="https://cdn.simpleicons.org/git/555555" height="22"/>
 
 Languages → JavaScript, TypeScript, Python
 
@@ -95,18 +101,16 @@ AI-assisted development
 
 ## Outside Work
 
-<p align="right">
-  <a href="https://your-strava-link">
-    <img src="https://cdn.simpleicons.org/strava/555555" height="24"/>
-  </a>
-  <a href="https://your-spotify-link">
-    <img src="https://cdn.simpleicons.org/spotify/555555" height="24"/>
-  </a>
-</p>
+<a href="https://your-strava-link">
+  <img src="https://cdn.simpleicons.org/strava/555555" height="22"/>
+</a>
+<a href="https://your-spotify-link">
+  <img src="https://cdn.simpleicons.org/spotify/555555" height="22"/>
+</a>
 
-I run to show that I touch grass.
+running (to stay functional outside the terminal)
 
-I listen to music while building
+music in the background while building
 
 ---
 
