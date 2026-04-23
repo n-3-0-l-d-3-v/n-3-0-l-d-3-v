@@ -1,7 +1,7 @@
-# Hi, I'm Neil [↗︎](https://neilthomasmathew.vercel.app)
+# Hi, I'm Neil ↗︎ [portfolio](https://neilthomasmathew.vercel.app)
 
 CS student building systems, breaking them, and understanding why they break.
-Currently moving from full stack → FARM, with a focus on AI workflows and backend systems that scale.
+Currently moving from full stack → FARM, focused on AI workflows and backend systems that scale.
 
 ---
 
@@ -10,10 +10,10 @@ Currently moving from full stack → FARM, with a focus on AI workflows and back
 building a platform for game developers
 → a place to showcase, collaborate, and ship together
 
-also exploring:
+exploring:
 
 * AI-driven workflows (agents > scripts)
-* systems that handle real users, not just demos
+* systems that handle real users
 * retention and product thinking
 
 ---
@@ -21,65 +21,67 @@ also exploring:
 ## Selected Work
 
 **Quero (AI Gmail client)**
-AI-native email workflows with agent-based execution
+AI-native workflows with agent-based execution
 → not just generating text, but actually performing actions
 
 **FOCUS (ML / Therapeutic Project)**
-diagnostic tool for autism screening
-→ OpenCV + ML models for behavior tracking
-→ adaptive difficulty + real-time feedback systems
+OpenCV + ML-based behavioral tracking system
+→ adaptive difficulty and real-time feedback
 
 **startup attempts**
-built multiple products that didn’t scale as expected
-→ learned execution, user behavior, and system design
+products that didn’t scale as expected
+→ shaped how I think about users and systems
 
 **freelance work**
-built scalable applications for small businesses
-→ focused on reliability and real-world usage
+built scalable apps for small businesses
+→ focused on real-world usage and reliability
 
 ---
 
 ## Stack & Tools
 
-**languages**
-JavaScript / TypeScript → system building
-Python → ML, automation
+<p align="left">
+  <img src="https://cdn.simpleicons.org/javascript/555555" height="26" />
+  <img src="https://cdn.simpleicons.org/typescript/555555" height="26" />
+  <img src="https://cdn.simpleicons.org/python/555555" height="26" />
+  <img src="https://cdn.simpleicons.org/react/555555" height="26" />
+  <img src="https://cdn.simpleicons.org/nextdotjs/555555" height="26" />
+  <img src="https://cdn.simpleicons.org/node.js/555555" height="26" />
+  <img src="https://cdn.simpleicons.org/express/555555" height="26" />
+  <img src="https://cdn.simpleicons.org/postgresql/555555" height="26" />
+  <img src="https://cdn.simpleicons.org/supabase/555555" height="26" />
+  <img src="https://cdn.simpleicons.org/git/555555" height="26" />
+  <img src="https://cdn.simpleicons.org/docker/555555" height="26" />
+</p>
 
-**frontend**
-React, Next.js
-→ minimal UI, pushing logic to backend
+**Languages** → JavaScript, TypeScript, Python
+**Frontend** → React, Next.js
+**Backend** → Node.js, Express, Hono
+**Database** → PostgreSQL (primary), MongoDB (previous)
+**Infra** → Vercel, Supabase
 
-**backend**
-Node.js, Express, Hono
-→ APIs, workflows, system design
-
-**database**
-PostgreSQL (primary)
-MongoDB (previously used)
-
-**infra**
-Vercel, Supabase
-
-**tools that matter**
-Git → clean history
-API design → auth, rate limiting
-Testing → unit + integration
-CI/CD → pipelines
-Performance → queries, caching
-Observability → logs, debugging
-AI tools → used intentionally
+**Core Practices**
+API design · authentication · rate limiting
+testing (unit + integration) · CI/CD
+performance (queries, caching)
+observability (logs, debugging)
+AI-assisted development (used intentionally)
 
 ---
 
 ## Outside Work
 
-running (so I don’t become a backend service)
+<p align="left">
+  <a href="https://your-strava-link">
+    <img src="https://cdn.simpleicons.org/strava/555555" height="26" />
+  </a>
+  <a href="https://your-spotify-link">
+    <img src="https://cdn.simpleicons.org/spotify/555555" height="26" />
+  </a>
+</p>
 
-Strava → [runs](https://your-strava-link)
-
-music while building
-
-Spotify → [listening to](https://your-spotify-link)
+running (to stay functional outside the terminal)
+music in the background while building
 
 ---
 
@@ -95,20 +97,22 @@ Spotify → [listening to](https://your-spotify-link)
 
 ## Find me
 
-<p align="left">
+<p align="center">
   <a href="https://github.com/n-3-0-l-d-3-v">
-    <img src="https://cdn.simpleicons.org/github/444444" height="28" />
+    <img src="https://cdn.simpleicons.org/github/555555" height="30" />
   </a>
   <a href="https://linkedin.com/in/neil-thomas-mathew-a17376316/">
-    <img src="https://cdn.simpleicons.org/linkedin/444444" height="28" />
+    <img src="https://cdn.simpleicons.org/linkedin/555555" height="30" />
   </a>
   <a href="https://neilthomasmathew.vercel.app">
-    <img src="https://cdn.simpleicons.org/googlechrome/444444" height="28" />
+    <img src="https://cdn.simpleicons.org/googlechrome/555555" height="30" />
   </a>
 </p>
 
 ---
 
-## Status
+<p align="center">
 
-still building.
+building • learning • iterating
+
+</p>
