@@ -1,97 +1,119 @@
-# Hi, I'm [Your Name]
+# Neil
 
-CS major transitioning from full stack development to the FARM stack.
-Focused on building systems that are scalable, usable, and retained by users.
+I build systems, break them, and try to understand why they broke.
 
----
+Currently moving from full stack → FARM,
+with a growing focus on AI workflows, backend systems, and products that people actually return to.
 
-## About
-
-* Built multiple startup projects through iterative development
-* Experience across full stack systems, now shifting toward FARM
-* Currently building a platform for game developers to showcase, collaborate, and discuss projects
+[portfolio](https://neilthomasmathew.vercel.app)
 
 ---
 
-## Current Focus
+## What I’m doing
 
-* User behavior and retention
-* Scalable backend systems
-* Developer communities
+building a platform for game developers
+→ somewhere to showcase, collaborate, and actually ship things together
 
----
+also exploring:
 
-## Projects
-
-### Game Dev Community Platform
-
-A platform for developers to:
-
-* Showcase their work
-* Collaborate with others
-* Share ideas and feedback
-
-### Previous Startups
-
-Worked on multiple startup ideas with a focus on rapid iteration, learning, and execution.
+* AI-driven workflows (agents > scripts)
+* systems that handle real users, not just demos
+* what makes people *come back* to a product
 
 ---
 
-## Tech Stack
+## Selected Work
 
-<p align="left">
-  <img src="https://cdn.simpleicons.org/react/000000" height="20" alt="React" />
-  <img src="https://cdn.simpleicons.org/node.js/000000" height="20" alt="Node.js" />
-  <img src="https://cdn.simpleicons.org/express/000000" height="20" alt="Express" />
-  <img src="https://cdn.simpleicons.org/mongodb/000000" height="20" alt="MongoDB" />
-  <img src="https://cdn.simpleicons.org/postgresql/000000" height="20" alt="PostgreSQL" />
-</p>
+**Quero (AI Gmail client)**
+built an AI-native email workflow with agent-based execution
+→ not just generating text, but actually *doing things*
 
-Frontend → React (transitioning)
-Backend → Node.js / Express
-Database → MongoDB → PostgreSQL
-Direction → FARM stack
+**FOCUS (Therapeutic / ML Project)**
+working on a diagnostic tool for autism screening
+→ uses OpenCV + ML models to track behavior across multiple scenarios
+→ experimenting with adaptive difficulty and real-time feedback systems
+
+**startup attempts**
+built multiple products that didn’t scale the way I expected
+→ learned more about users, systems, and execution than success would’ve taught
+
+**freelance work**
+worked with small businesses to build scalable applications
+→ focused on real-world use, reliability, and long-term usability
+
+---
+
+## Stack & Tools
+
+not just what I use — how I think about building:
+
+**languages**
+JavaScript / TypeScript → building systems
+Python → ML, automation, experimentation
+
+**frontend**
+React, Next.js
+→ keeping UI simple, moving complexity to the backend
+
+**backend**
+Node.js, Express, Hono
+→ APIs, workflows, system design
+
+**database**
+PostgreSQL (primary)
+MongoDB (used before, now phasing out)
+
+**infra**
+Vercel, Supabase
+→ fast iteration, minimal overhead
+
+**tools that matter**
+Git → clean history, not just commits
+API design → auth, rate limiting, structure
+Testing → unit + integration
+CI/CD → automated pipelines
+Performance → queries, caching, bottlenecks
+Observability → logs, debugging in production
+AI tools → used intentionally, not blindly
 
 ---
 
 ## Outside Work
 
-Running (to prove I touch grass)
+I run so that i touch grass :)
 
 Strava → [runs](https://your-strava-link)
 
-Listening to music while pretending to be productive
+I listen to music while building
 
-Spotify → [playlist](https://your-spotify-link)
+Spotify → [listening to](https://your-spotify-link)
 
 ---
 
 ## Principles
 
-* Build consistently
-* Focus on users over features
-* Iterate deliberately
-* Think in long-term systems
-* Ship before overthinking wins
+* build things people use, not just finish
+* simple > clever (until it breaks)
+* systems thinking > feature thinking
+* consistency > intensity
+* learn fast, verify everything
 
 ---
 
-## Socials
+## Find me
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/neil-thomas-mathew-a17376316">
-    <img src="https://cdn.simpleicons.org/linkedin/000000" height="20" alt="LinkedIn" />
+  <a href="https://github.com/n-3-0-l-d-3-v">
+    <img src="https://cdn.simpleicons.org/github/000000" height="22" />
   </a>
-  <a href="https://twitter.com/your-handle">
-    <img src="https://cdn.simpleicons.org/x/000000" height="20" alt="X" />
+  <a href="https://linkedin.com/in/neil-thomas-mathew-a17376316/">
+    <img src="https://cdn.simpleicons.org/linkedin/000000" height="22" />
   </a>
-  <a href="https://your-portfolio.com">
-    <img src="https://cdn.simpleicons.org/internetexplorer/000000" height="20" alt="Portfolio" />
+  <a href="https://neilthomasmathew.vercel.app">
+    <img src="https://cdn.simpleicons.org/googlechrome/000000" height="22" />
   </a>
 </p>
 
 ---
 
-## Status
-
-Active
+building
