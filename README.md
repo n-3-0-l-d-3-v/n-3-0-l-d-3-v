@@ -28,11 +28,9 @@ exploring:
 
 **Quero (AI Gmail client)**
 
-AI-native workflows with agent-based execution
-
+AI-native workflows with agent-based execution<br>
 → not just generating text, but actually performing actions
 
----
 
 **FOCUS (ML / Therapeutic Project)**
 
