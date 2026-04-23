@@ -77,7 +77,6 @@ Stack & Tools&nbsp;
 <img src="https://cdn.simpleicons.org/prisma/555555" height="20"/>
 <img src="https://cdn.simpleicons.org/vercel/555555" height="20"/>
 <img src="https://cdn.simpleicons.org/n8n/555555" height="20"/>
-<img src="https://cdn.simpleicons.org/openai/555555" height="20"/>
 <img src="https://cdn.simpleicons.org/googlecloud/555555" height="20"/>
 <img src="https://cdn.simpleicons.org/tensorflow/555555" height="20"/>
 <img src="https://cdn.simpleicons.org/pandas/555555" height="20"/>
@@ -98,10 +97,10 @@ React / Next.js
 Node.js / Express / Hono
 FastAPI
 
-PostgreSQL (primary)
-MongoDB (previous)
+PostgreSQL
+MongoDB
 
-Supabase (auth + storage)
+Supabase
 
 Tailwind CSS
 
@@ -114,24 +113,21 @@ Tailwind CSS
 Git
 Docker
 
-CI/CD pipelines
-API design
+GitHub Actions
+Postman
 
-Auth & security
-Rate limiting
+Prisma ORM
+Supabase Studio
 
-Performance optimization
-Observability
+Vercel (deployment)
 
-Figma (design workflows)
+Figma (design)
 
-n8n (automation)
+n8n (automation workflows)
 
-AI / ML
-
-OpenAI APIs
 TensorFlow
-Pandas / NumPy
+Pandas
+NumPy
 
 </td>
 </tr>
@@ -170,7 +166,7 @@ Find me&nbsp;
 <a href="https://github.com/n-3-0-l-d-3-v">
   <img src="https://cdn.simpleicons.org/github/555555" height="22"/>
 </a>
-<a href="https://cdn.simpleicons.org/linkedin/555555" height="22"/>
+<a href="https://linkedin.com/in/neil-thomas-mathew-a17376316/">
   <img src="https://cdn.simpleicons.org/linkedin/555555" height="22"/>
 </a>
 <a href="https://discord.com/users/your-id">
