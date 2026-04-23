@@ -153,9 +153,5 @@ Find me on&nbsp;
 
 
 <p align="center">
-
-  
 still building :)
-
-
 </p>
