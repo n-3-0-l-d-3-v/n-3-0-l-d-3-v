@@ -10,8 +10,56 @@ Currently moving from full stack → FARM, focused on AI workflows and backend s
 
 ---
 
+## What I’m doing
+
+building a platform for game developers
+
+→ a place to showcase, collaborate, and ship together
+
+exploring:
+
+* AI-driven workflows (agents > scripts)
+* systems that handle real users
+* retention and product thinking
+
+---
+
+## Selected Work
+
+**Quero (AI Gmail client)**
+
+AI-native workflows with agent-based execution
+
+→ not just generating text, but actually performing actions
+
+---
+
+**FOCUS (ML / Therapeutic Project)**
+
+OpenCV + ML-based behavioral tracking
+
+→ adaptive difficulty + real-time feedback
+
+---
+
+**startup attempts**
+
+products that didn’t scale as expected
+
+→ shaped how I think about users and systems
+
+---
+
+**freelance work**
+
+built scalable apps for small businesses
+
+→ focused on real-world reliability
+
+---
+
 <h2>
-Stack & Tools
+Stack & Tools&nbsp;
 <img src="https://cdn.simpleicons.org/javascript/555555" height="20"/>
 <img src="https://cdn.simpleicons.org/typescript/555555" height="20"/>
 <img src="https://cdn.simpleicons.org/python/555555" height="20"/>
@@ -34,10 +82,25 @@ MongoDB (previous)
 
 Infra → Vercel, Supabase
 
+Core Practices
+
+API design
+authentication
+rate limiting
+
+testing
+CI/CD
+performance
+
+observability
+debugging
+
+AI-assisted development
+
 ---
 
 <h2>
-Outside Work
+Outside Work&nbsp;
 <a href="https://your-strava-link">
   <img src="https://cdn.simpleicons.org/strava/555555" height="20"/>
 </a>
@@ -52,8 +115,18 @@ music in the background while building
 
 ---
 
+## Principles
+
+* build things people use
+* simple > clever (until it breaks)
+* systems thinking > feature thinking
+* consistency > intensity
+* learn fast, verify everything
+
+---
+
 <h2>
-Find me
+Find me&nbsp;
 <a href="https://github.com/n-3-0-l-d-3-v">
   <img src="https://cdn.simpleicons.org/github/555555" height="22"/>
 </a>
