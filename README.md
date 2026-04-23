@@ -5,7 +5,7 @@
   </a>
 </h1>
 
-CS student building systems, breaking them, and understanding why they break.
+CS student building systems, breaking them, and understanding why they break.<br>
 Currently moving from full stack → FARM, focused on AI workflows and backend systems that scale.
 
 ---
@@ -34,24 +34,19 @@ AI-native workflows with agent-based execution<br>
 
 **FOCUS (ML / Therapeutic Project)**
 
-OpenCV + ML-based behavioral tracking
-
+OpenCV + ML-based behavioral tracking<br>
 → adaptive difficulty + real-time feedback
 
----
 
 **startup attempts**
 
-products that didn’t scale as expected
-
+products that didn’t scale as expected<br>
 → shaped how I think about users and systems
 
----
 
 **freelance work**
 
-built scalable apps for small businesses
-
+built scalable apps for small businesses<br>
 → focused on real-world reliability
 
 ---
@@ -87,16 +82,13 @@ Stack & Tools&nbsp;
 
 **Stack**
 
-JavaScript / TypeScript
-Python
+JavaScript, TypeScript, Python
 
-React / Next.js
+React, Next.js
 
-Node.js / Express / Hono
-FastAPI
+Node.js, Express, Hono, FastAPI
 
-PostgreSQL
-MongoDB
+PostgreSQL, MongoDB
 
 Supabase
 
@@ -108,24 +100,19 @@ Tailwind CSS
 
 **Tools & Systems**
 
-Git
-Docker
+Git, Docker
 
-GitHub Actions
-Postman
+GitHub Actions, Postman
 
-Prisma ORM
-Supabase Studio
+Prisma ORM, Supabase Studio
 
-Vercel (deployment)
+Vercel, Railway
 
 Figma (design)
 
 n8n (automation workflows)
 
-TensorFlow
-Pandas
-NumPy
+TensorFlow, Pandas, NumPy
 
 </td>
 </tr>
@@ -143,9 +130,9 @@ Outside Work&nbsp;
 </a>
 </h2>
 
-running (to stay functional outside the terminal)
+I run to show that i touch grass
 
-music in the background while building
+I listen to music while building
 
 ---
 
@@ -160,7 +147,7 @@ music in the background while building
 ---
 
 <h2>
-Find me&nbsp;
+Find me on&nbsp;
 <a href="https://github.com/n-3-0-l-d-3-v">
   <img src="https://cdn.simpleicons.org/github/555555" height="22"/>
 </a>
