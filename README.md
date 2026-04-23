@@ -117,10 +117,10 @@ TensorFlow, Pandas, NumPy
 <h2>
 Outside Work&nbsp;
 <a href="https://your-strava-link">
-  <img align="center" src="https://img.icons8.com/ios-glyphs/30/cccccc/strava.png"/>
+  <img align="center" src="https://cdn.simpleicons.org/strava/cccccc" height="30"/>
 </a>
 <a href="https://your-spotify-link">
-  <img align="center" src="https://img.icons8.com/ios-glyphs/30/cccccc/spotify.png"/>
+  <img align="center" src="https://cdn.simpleicons.org/spotify/cccccc" height="30"/>
 </a>
 </h2>
 
