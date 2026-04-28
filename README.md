@@ -22,32 +22,6 @@ exploring:
 * retention and product thinking
 
 
-## Selected Work
-
-**Quero (AI Gmail client)**
-
-AI-native workflows with agent-based execution<br>
-→ not just generating text, but actually performing actions.
-
-
-**FOCUS (ML / Therapeutic Project)**
-
-OpenCV + ML-based behavioral tracking<br>
-→ adaptive difficulty + real-time feedback.
-
-
-**startup attempts**
-
-products that didn’t scale as expected<br>
-→ shaped how I think about users and systems.
-
-
-**freelance works**
-
-built scalable apps for small businesses<br>
-→ focused on real-world reliability.
-
-
 <h2>
 Stack & Tools&nbsp;
 <img src="https://cdn.simpleicons.org/javascript/cccccc" height="22"/>
@@ -72,46 +46,6 @@ Stack & Tools&nbsp;
 <img src="https://cdn.simpleicons.org/pandas/cccccc" height="22"/>
 <img src="https://cdn.simpleicons.org/numpy/cccccc" height="22"/>
 </h2>
-
-<table>
-<tr>
-<td valign="top">
-
-**Stack**
-
-JavaScript, TypeScript, Python
-
-React, Next.js
-
-Node.js, Express, Hono, FastAPI
-
-PostgreSQL, MongoDB
-
-Supabase
-
-Tailwind CSS
-
-</td>
-
-<td valign="top">
-
-**Tools & Systems**
-
-Git, Docker
-
-GitHub Actions, Postman
-
-Prisma ORM, Supabase Studio
-
-Vercel, Railway, Figma
-
-N8n (automation workflows)
-
-TensorFlow, Pandas, NumPy
-
-</td>
-</tr>
-</table>
 
 
 <h2>
