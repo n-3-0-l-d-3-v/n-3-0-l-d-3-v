@@ -10,20 +10,8 @@ Now moving from full stack → FARM, focused on AI workflows and backend systems
 
 ---
 
-## What I’m doing
-
-building a platform for game developers<br>
-→ a place to showcase, collaborate, and ship together.
-
-exploring:
-
-* AI-driven workflows (agents > scripts)
-* systems that handle real users
-* retention and product thinking
-
-
 <h2>
-Stack & Tools&nbsp;
+What I'm on&nbsp;
 <img src="https://cdn.simpleicons.org/javascript/cccccc" height="22"/>
 <img src="https://cdn.simpleicons.org/typescript/cccccc" height="22"/>
 <img src="https://cdn.simpleicons.org/python/cccccc" height="22"/>
@@ -46,6 +34,15 @@ Stack & Tools&nbsp;
 <img src="https://cdn.simpleicons.org/pandas/cccccc" height="22"/>
 <img src="https://cdn.simpleicons.org/numpy/cccccc" height="22"/>
 </h2>
+
+building a platform for game developers<br>
+→ a place to showcase, collaborate, and ship together.
+
+exploring:
+
+* AI-driven workflows (agents > scripts)
+* systems that handle real users
+* retention and product thinking
 
 
 <h2>
