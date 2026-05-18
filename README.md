@@ -6,7 +6,7 @@
 </h1>
 
 CS major building systems, breaking them, and understanding why they break.<br>
-Now moving from full stack → FARM, focused on AI workflows and backend systems that scale.
+Engineering scalable full-stack systems, AI-driven workflows, and backend infrastructure.
 
 ---
 
@@ -74,7 +74,7 @@ Find me on&nbsp;
 <a href="https://github.com/n-3-0-l-d-3-v">
   <img align="center" src="https://img.icons8.com/ios-glyphs/30/cccccc/github.png"/>
 </a>
-<a href="https://linkedin.com/in/neil-thomas-mathew-a17376316">
+<a href="https://www.linkedin.com/in/neilthomasmathew">
   <img align="center" src="https://img.icons8.com/ios-glyphs/30/cccccc/linkedin.png"/>
 </a>
 <a href="https://discord.com/users/_n30l_">
