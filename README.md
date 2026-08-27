@@ -17,20 +17,49 @@
 <br/>
 
 <!-- ============================================================
-     SWAP ZONE — edit the 4 lines below when you ship something new.
-     Format: repo=EXACT-REPO-NAME (case sensitive). Nothing else
-     in this block needs to change.
+     SWAP ZONE — when you ship something new, edit ONE row below:
+     name (link), language badge (repo name in the url), one-line
+     description. Nothing else in this file needs to change.
      ============================================================ -->
 
 ## Top repos
 
 <div align="center">
 
-<a href="https://github.com/n-3-0-l-d-3-v/aether-platform"><img src="https://github-readme-stats.vercel.app/api/pin/?username=n-3-0-l-d-3-v&repo=aether-platform&theme=tokyonight&hide_border=true&bg_color=1a1b26&title_color=7aa2f7&icon_color=bb9af7" /></a>
-<a href="https://github.com/n-3-0-l-d-3-v/overload-cusp-catastrophe"><img src="https://github-readme-stats.vercel.app/api/pin/?username=n-3-0-l-d-3-v&repo=overload-cusp-catastrophe&theme=tokyonight&hide_border=true&bg_color=1a1b26&title_color=7aa2f7&icon_color=bb9af7" /></a>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<a href="https://github.com/n-3-0-l-d-3-v/recoup-revenue-recovery"><img src="https://github-readme-stats.vercel.app/api/pin/?username=n-3-0-l-d-3-v&repo=recoup-revenue-recovery&theme=tokyonight&hide_border=true&bg_color=1a1b26&title_color=7aa2f7&icon_color=bb9af7" /></a>
-<a href="https://github.com/n-3-0-l-d-3-v/QUERO"><img src="https://github-readme-stats.vercel.app/api/pin/?username=n-3-0-l-d-3-v&repo=QUERO&theme=tokyonight&hide_border=true&bg_color=1a1b26&title_color=7aa2f7&icon_color=bb9af7" /></a>
+**[aether-platform](https://github.com/n-3-0-l-d-3-v/aether-platform)**
+<br/><img src="https://img.shields.io/github/languages/top/n-3-0-l-d-3-v/aether-platform?style=flat-square&color=7aa2f7&labelColor=1a1b26" />
+<br/>Evidence-first binary & firmware analysis, built on Ghidra — every finding is a structured, artifact-linked claim.
+
+</td>
+<td width="50%" valign="top">
+
+**[overload-cusp-catastrophe](https://github.com/n-3-0-l-d-3-v/overload-cusp-catastrophe)**
+<br/><img src="https://img.shields.io/github/languages/top/n-3-0-l-d-3-v/overload-cusp-catastrophe?style=flat-square&color=bb9af7&labelColor=1a1b26" />
+<br/>Catastrophe theory applied to wearable physiology — IEEE conference artefact.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[recoup-revenue-recovery](https://github.com/n-3-0-l-d-3-v/recoup-revenue-recovery)**
+<br/><img src="https://img.shields.io/github/languages/top/n-3-0-l-d-3-v/recoup-revenue-recovery?style=flat-square&color=7aa2f7&labelColor=1a1b26" />
+<br/>Policy-gated revenue recovery for Indian payments — Razorpay AI Buildathon.
+
+</td>
+<td width="50%" valign="top">
+
+**[QUERO](https://github.com/n-3-0-l-d-3-v/QUERO)**
+<br/><img src="https://img.shields.io/github/languages/top/n-3-0-l-d-3-v/QUERO?style=flat-square&color=bb9af7&labelColor=1a1b26" />
+<br/>AI-powered agentic email client.
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -66,11 +95,6 @@ learn fast, verify everything
 <br/>
 
 <div align="center">
-
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=n-3-0-l-d-3-v&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b26&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5&count_private=true&include_all_commits=true&rank_icon=github" />
-<img height="150" src="https://streak-stats.demolab.com?user=n-3-0-l-d-3-v&theme=tokyonight&hide_border=true&background=1a1b26&ring=7aa2f7&fire=bb9af7&currStreakLabel=7aa2f7" />
-
-<br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/n-3-0-l-d-3-v/n-3-0-l-d-3-v/output/github-snake-dark.svg" />
