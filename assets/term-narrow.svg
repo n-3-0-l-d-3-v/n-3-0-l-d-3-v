@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 336" width="620" height="336" fill="none" font-family="ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace">
+<style>
+  .win{fill:#191724} .bar{fill:#1f1d2e} .edge{stroke:#26233a;stroke-width:1}
+  .dim{fill:#6e6a86} .mute{fill:#908caa} .text{fill:#e0def4}
+  .foam{fill:#9ccfd8} .gold{fill:#f6c177} .iris{fill:#c4a7e7} .love{fill:#eb6f92}
+  text{font-size:16px} .sm{font-size:12px;letter-spacing:1.2px} .ttl{font-size:12px}
+
+  .a{animation-duration:12s;animation-iteration-count:infinite;animation-timing-function:linear}
+  clipPath rect{width:0;animation-duration:12s;animation-iteration-count:infinite;
+                animation-timing-function:linear}
+
+  @keyframes boot{0%,3%{opacity:0} 6%,100%{opacity:1}}
+  @keyframes lg{0%,3%{opacity:0;transform:scale(.4)} 8%,100%{opacity:1;transform:scale(1)}}
+  @keyframes q1{0%,8%{width:0} 14%,100%{width:88px}}
+  @keyframes q2{0%,30%{width:0} 37%,100%{width:128px}}
+  @keyframes q3{0%,74%{width:0} 77%,100%{width:28px}}
+  @keyframes b1{0%,18%{opacity:0;transform:translateY(4px)} 22%,100%{opacity:1;transform:translateY(0)}}
+  @keyframes b2{0%,42%{opacity:0;transform:translateY(4px)} 46%,100%{opacity:1;transform:translateY(0)}}
+  @keyframes b3{0%,49%{opacity:0;transform:translateY(4px)} 53%,100%{opacity:1;transform:translateY(0)}}
+  @keyframes b4{0%,56%{opacity:0;transform:translateY(4px)} 60%,100%{opacity:1;transform:translateY(0)}}
+  @keyframes b5{0%,63%{opacity:0;transform:translateY(4px)} 67%,100%{opacity:1;transform:translateY(0)}}
+  @keyframes bl{0%,78%{opacity:0} 79%,84%{opacity:1} 85%,90%{opacity:0}
+                91%,96%{opacity:1} 97%,100%{opacity:0}}
+  @keyframes wk{0%,20%{transform:translateX(-50px)} 100%{transform:translateX(680px)}}
+  @keyframes p1{0%,20%{opacity:1} 21%{opacity:0} 22%{opacity:1} 23%{opacity:0} 24%{opacity:1}
+                25%{opacity:0} 26%{opacity:1} 27%{opacity:0} 28%{opacity:1} 29%{opacity:0}
+                30%{opacity:1} 31%{opacity:0} 32%{opacity:1} 33%{opacity:0} 34%{opacity:1}
+                35%{opacity:0} 36%{opacity:1} 37%{opacity:0} 38%{opacity:1} 39%{opacity:0}
+                40%{opacity:1} 41%{opacity:0} 42%{opacity:1} 43%{opacity:0} 44%{opacity:1}
+                45%{opacity:0} 46%{opacity:1} 47%{opacity:0} 48%{opacity:1} 49%{opacity:0}
+                50%,100%{opacity:1}}
+  @keyframes p2{0%,20%{opacity:0} 21%{opacity:1} 22%{opacity:0} 23%{opacity:1} 24%{opacity:0}
+                25%{opacity:1} 26%{opacity:0} 27%{opacity:1} 28%{opacity:0} 29%{opacity:1}
+                30%{opacity:0} 31%{opacity:1} 32%{opacity:0} 33%{opacity:1} 34%{opacity:0}
+                35%{opacity:1} 36%{opacity:0} 37%{opacity:1} 38%{opacity:0} 39%{opacity:1}
+                40%{opacity:0} 41%{opacity:1} 42%{opacity:0} 43%{opacity:1} 44%{opacity:0}
+                45%{opacity:1} 46%{opacity:0} 47%{opacity:1} 48%{opacity:0} 49%{opacity:1}
+                50%,100%{opacity:0}}
+  @keyframes tl{0%,20%{transform:rotate(0)} 30%{transform:rotate(-18deg)}
+                40%{transform:rotate(6deg)} 50%{transform:rotate(-14deg)}
+                60%{transform:rotate(4deg)} 100%{transform:rotate(0)}}
+  @keyframes ps{0%,100%{opacity:1} 50%{opacity:.35}}
+
+  #w{opacity:0;animation-name:boot}
+  .lt{opacity:0;transform-box:fill-box;transform-origin:center;animation-name:lg}
+  #q1 rect{animation-name:q1} #q2 rect{animation-name:q2} #q3 rect{animation-name:q3}
+  .r{opacity:0;transform-box:fill-box}
+  .k1{animation-name:b1} .k2{animation-name:b2} .k3{animation-name:b3}
+  .k4{animation-name:b4} .k5{animation-name:b5}
+  .cur{opacity:0;animation-name:bl}
+  #cat{transform:translateX(-50px);animation-name:wk}
+  .s1{animation-name:p1} .s2{animation-name:p2}
+  #tail{transform-box:fill-box;transform-origin:right center;animation-name:tl}
+  .dot{animation-name:ps;animation-duration:2.4s}
+
+  @media (prefers-reduced-motion: reduce){
+    .a{animation:none!important} #w,.lt,.r,.cur{opacity:1!important}
+    #q1 rect{width:88px} #q2 rect{width:128px} #q3 rect{width:28px}
+    #cat{transform:translateX(300px)}
+  }
+</style>
+
+<g id="w" class="a">
+  <rect class="win edge" x="1" y="1" width="618" height="334" rx="12"/>
+  <rect class="bar" x="1" y="1" width="618" height="34" rx="12"/>
+  <rect class="bar" x="1" y="24" width="618" height="11"/>
+  <path class="edge" d="M1 35 H619"/>
+  <circle class="lt a love" cx="24" cy="18" r="5"/>
+  <circle class="lt a gold" cx="42" cy="18" r="5"/>
+  <circle class="lt a foam" cx="60" cy="18" r="5"/>
+  <text class="ttl dim" x="310" y="22" text-anchor="middle">neil@systems — zsh</text>
+
+  <clipPath id="q1"><rect x="24" y="54" width="0" height="22"/></clipPath>
+  <g clip-path="url(#q1)"><text x="24" y="72"><tspan class="foam">$ </tspan><tspan class="text">whoami</tspan></text></g>
+  <text class="r a k1 mute" x="24" y="100">neil thomas mathew</text>
+  <text class="r a k1 dim sm" x="24" y="122">CS MAJOR · BANGALORE</text>
+
+  <clipPath id="q2"><rect x="24" y="146" width="0" height="22"/></clipPath>
+  <g clip-path="url(#q2)"><text x="24" y="164"><tspan class="foam">$ </tspan><tspan class="text">ls shipped</tspan></text></g>
+  <text class="r a k2 gold" x="24" y="192">aether-platform</text>
+  <text class="r a k3 gold" x="24" y="216">overload-cusp</text>
+  <text class="r a k4 gold" x="24" y="240">recoup</text>
+  <text class="r a k5 gold" x="24" y="264">quero</text>
+
+  <clipPath id="q3"><rect x="24" y="278" width="0" height="22"/></clipPath>
+  <g clip-path="url(#q3)"><text x="24" y="296"><tspan class="foam">$ </tspan></text></g>
+  <rect class="cur a foam" x="42" y="282" width="9" height="17" rx="1"/>
+
+  <path class="edge" d="M1 300 H619"/>
+  <rect class="bar" x="1" y="301" width="618" height="34" rx="12"/>
+  <rect class="bar" x="1" y="301" width="618" height="18"/>
+  <text class="sm iris" x="24" y="323">NORMAL</text>
+  <circle class="dot a foam" cx="98" cy="318" r="3.5"/>
+  <text class="sm mute" x="112" y="323">building</text>
+  <text class="sm dim" x="596" y="323" text-anchor="end">main</text>
+
+  <g id="cat" class="a">
+    <g transform="translate(0,283) scale(1.25)">
+      <path id="tail" class="a foam" d="M2 8 C-6 6 -7 -1 -1 -3 L1 -1 C-3 0 -3 4 3 5 Z" opacity=".9"/>
+      <rect class="foam" x="2" y="4" width="17" height="8" rx="3.4"/>
+      <circle class="foam" cx="21" cy="5.5" r="4.6"/>
+      <path class="foam" d="M17.6 2.2 L18.2 -1.6 L20.6 1 Z"/>
+      <path class="foam" d="M23.8 1.1 L25 -2.3 L26 1.9 Z"/>
+      <circle class="win" cx="22.6" cy="5" r=".85"/>
+      <g class="s1 a"><rect class="foam" x="4"  y="11" width="2.4" height="3.4" rx="1"/>
+                      <rect class="foam" x="14" y="11" width="2.4" height="3.4" rx="1"/></g>
+      <g class="s2 a"><rect class="foam" x="8"  y="11" width="2.4" height="3.4" rx="1"/>
+                      <rect class="foam" x="17" y="11" width="2.4" height="3.4" rx="1"/></g>
+    </g>
+  </g>
+</g>
+</svg>
