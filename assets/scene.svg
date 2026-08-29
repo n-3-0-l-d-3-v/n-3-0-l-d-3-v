@@ -1,0 +1,431 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760"
+     fill="none" role="img"
+     aria-label="Neil Thomas Mathew — systems, security and AI infrastructure. Cinematic profile scene."
+     font-family="ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace">
+<defs>
+  <!-- distant light bloom behind The Fold -->
+  <radialGradient id="bloom" cx="50%" cy="34%" r="52%">
+    <stop offset="0%"   stop-color="#3a3f5c" stop-opacity=".40"/>
+    <stop offset="45%"  stop-color="#16161f" stop-opacity=".22"/>
+    <stop offset="100%" stop-color="#050508" stop-opacity="0"/>
+  </radialGradient>
+  <!-- rare warm accent bloom, used once, at the core -->
+  <radialGradient id="core" cx="50%" cy="50%" r="50%">
+    <stop offset="0%"   stop-color="#c9a88a" stop-opacity=".55"/>
+    <stop offset="60%"  stop-color="#c9a88a" stop-opacity=".10"/>
+    <stop offset="100%" stop-color="#c9a88a" stop-opacity="0"/>
+  </radialGradient>
+  <!-- horizon wash along the lower architecture -->
+  <linearGradient id="horizon" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%"   stop-color="#3a3f5c" stop-opacity="0"/>
+    <stop offset="50%"  stop-color="#3a3f5c" stop-opacity=".30"/>
+    <stop offset="100%" stop-color="#3a3f5c" stop-opacity="0"/>
+  </linearGradient>
+  <!-- travelling head of an energy stream -->
+  <linearGradient id="stream" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%"   stop-color="#a8b4c8" stop-opacity="0"/>
+    <stop offset="55%"  stop-color="#a8b4c8" stop-opacity=".55"/>
+    <stop offset="100%" stop-color="#a8b4c8" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+
+<style>
+/* ══════════════════════════════════════════════════════════════════════
+   PALETTE — the only colours used anywhere in this file
+   void #050508 · structure #0c0c14 · form #16161f
+   light #a8b4c8 · secondary #3a3f5c · warm accent #c9a88a · text #e8e6e3
+   ═══════════════════════════════════════════════════════════════════════ */
+.void   { fill:#050508 }
+.struct { fill:#0c0c14 }
+.form   { fill:#16161f }
+.light  { fill:#a8b4c8 }
+.sec    { fill:#3a3f5c }
+.warm   { fill:#c9a88a }
+.txt    { fill:#e8e6e3 }
+.lineS  { stroke:#3a3f5c; fill:none }
+.lineL  { stroke:#a8b4c8; fill:none }
+
+/* ── type scale ─────────────────────────────────────────────────────── */
+.name  { font-size:52px; font-weight:300; letter-spacing:13px; fill:#e8e6e3 }
+.role  { font-size:13px; letter-spacing:7px;   fill:#a8b4c8; opacity:.72 }
+.insc  { font-size:13px; letter-spacing:3.4px; fill:#a8b4c8; opacity:.80 }
+.insc2 { font-size:12px; letter-spacing:2.8px; fill:#3a3f5c }
+.minor { font-size:11px; letter-spacing:2.4px; fill:#3a3f5c; opacity:.85 }
+.stack { font-size:11px; letter-spacing:2.6px; fill:#a8b4c8; opacity:.62 }
+.chTtl { font-size:12px; letter-spacing:1.8px; fill:#e8e6e3 }
+.chDsc { font-size:10px; letter-spacing:.6px; fill:#a8b4c8; opacity:.60 }
+.chSt  { font-size:9px;  letter-spacing:1.8px; fill:#3a3f5c }
+.edge  { font-size:9px;  letter-spacing:2.4px; fill:#3a3f5c; opacity:.60 }
+
+/* ═══════════════════════════════════════════════════════════════════════
+   SEQUENCING
+   The film plays once from load, then rests in an infinite idle.
+   Every timed element uses .cue and carries its own --d (delay in seconds),
+   so retiming a beat means editing one number on that element.
+   ═══════════════════════════════════════════════════════════════════════ */
+.cue   { opacity:0; animation:rise 1.6s cubic-bezier(.16,1,.3,1) forwards;
+         animation-delay:var(--d,0s) }
+@keyframes rise { from{opacity:0; transform:translateY(10px)}
+                  to  {opacity:1; transform:translateY(0)} }
+
+/* a slower, heavier reveal for large structural members */
+.draw  { stroke-dasharray:var(--len,1400); stroke-dashoffset:var(--len,1400);
+         animation:draw 3.4s cubic-bezier(.16,1,.3,1) forwards;
+         animation-delay:var(--d,0s) }
+@keyframes draw { to { stroke-dashoffset:0 } }
+
+/* text etched in by a light wipe rather than a fade */
+#etch rect { width:0; animation:etch 3.2s cubic-bezier(.16,1,.3,1) forwards;
+             animation-delay:15s }
+@keyframes etch { to { width:900px } }
+
+/* ═══════════════════════════════════════════════════════════════════════
+   1 · VOID  (0–5s) — sparse drift, distant bloom
+   ═══════════════════════════════════════════════════════════════════════ */
+.p  { animation:drift linear infinite; transform-box:fill-box }
+@keyframes drift { 0%{transform:translate(0,0);opacity:0}
+                   14%{opacity:.5} 86%{opacity:.5}
+                   100%{transform:translate(26px,-150px);opacity:0} }
+#bloomLayer { opacity:0; animation:bloomIn 6s ease-out 1.2s forwards }
+@keyframes bloomIn { to { opacity:1 } }
+
+/* ═══════════════════════════════════════════════════════════════════════
+   2 · THE FOLD  (5–14s)
+   compact → unfolding → open → shifting.
+   Each blade hinges at its own base: bbox bottom-centre.
+   ═══════════════════════════════════════════════════════════════════════ */
+#fold { opacity:0; animation:foldIn 2.6s ease-out 5s forwards }
+@keyframes foldIn { to { opacity:1 } }
+
+.blade { transform-box:fill-box; transform-origin:50% 100%;
+         transform:scale(.14) rotate(-34deg);
+         /* unfold once, with weight — then live in a slow shifting state */
+         animation:unfold 5.4s cubic-bezier(.16,1,.3,1) forwards,
+                   shift 26s ease-in-out 15s infinite;
+         animation-delay:var(--d,6s), 15s }
+@keyframes unfold { to { transform:scale(1) rotate(0deg) } }
+@keyframes shift  { 0%,100%{ transform:scale(1)    rotate(0deg) }
+                    28%    { transform:scale(.965) rotate(-3.2deg) }
+                    56%    { transform:scale(1.05) rotate(2.4deg) }
+                    80%    { transform:scale(.99)  rotate(-1.2deg) } }
+
+/* the whole form turns slowly forever — deliberate, never spinning */
+#foldTurn { transform-box:view-box; transform-origin:600px 250px;
+            animation:turn 240s linear infinite }
+@keyframes turn { to { transform:rotate(360deg) } }
+
+#coreGlow { opacity:0; animation:coreIn 4s ease-out 8s forwards,
+                                 breathe 7s ease-in-out 12s infinite }
+@keyframes coreIn  { to { opacity:1 } }
+@keyframes breathe { 0%,100%{opacity:1} 50%{opacity:.62} }
+
+/* ═══════════════════════════════════════════════════════════════════════
+   3 · ATMOSPHERE — running (rhythmic pulse) · music (waveform light)
+   Environmental only. Never labelled.
+   ═══════════════════════════════════════════════════════════════════════ */
+#cadence { opacity:0; animation:cadIn 5s ease-out 16s forwards,
+                                 cadence 1.9s ease-in-out 18s infinite }
+@keyframes cadIn   { to { opacity:1 } }
+@keyframes cadence { 0%{opacity:.30} 8%{opacity:.85} 26%{opacity:.34}
+                     50%{opacity:.30} 58%{opacity:.62} 76%{opacity:.30}
+                     100%{opacity:.30} }
+
+.wv { transform-box:fill-box; transform-origin:50% 100%; transform:scaleY(.1);
+      animation:wave 3.1s ease-in-out infinite; animation-delay:var(--d,0s) }
+@keyframes wave { 0%,100%{transform:scaleY(.10)} 25%{transform:scaleY(.85)}
+                  50%{transform:scaleY(.28)} 75%{transform:scaleY(.62)} }
+#waveform { opacity:0; animation:cadIn 6s ease-out 19s forwards }
+
+/* ═══════════════════════════════════════════════════════════════════════
+   4 · ENERGY FLOW — activity as light moving through the structure
+   ═══════════════════════════════════════════════════════════════════════ */
+.flow { stroke:url(#stream); stroke-width:1.2; fill:none;
+        stroke-dasharray:240 1160; stroke-dashoffset:1400; opacity:0;
+        animation:flowIn 4s ease-out forwards,
+                  flowRun 14s linear infinite;
+        animation-delay:var(--d,30s), var(--d,30s) }
+@keyframes flowIn  { to { opacity:1 } }
+@keyframes flowRun { to { stroke-dashoffset:-1400 } }
+
+/* structural growth: strata thicken as the record deepens */
+.grow { transform-box:fill-box; transform-origin:50% 100%; transform:scaleY(0);
+        animation:grow 2.6s cubic-bezier(.16,1,.3,1) forwards,
+                  sway 9s ease-in-out infinite;
+        animation-delay:var(--d,30s), calc(var(--d,30s) + 3s) }
+@keyframes grow { to { transform:scaleY(1) } }
+@keyframes sway { 0%,100%{transform:scaleY(1)} 50%{transform:scaleY(.86)} }
+
+/* ═══════════════════════════════════════════════════════════════════════
+   5 · CHAMBERS — focus drifts between them, one lit at a time
+   ═══════════════════════════════════════════════════════════════════════ */
+.chamber { opacity:0; animation:rise 2s cubic-bezier(.16,1,.3,1) forwards,
+                                focus 42s ease-in-out infinite;
+           animation-delay:var(--d,49s), calc(var(--d,49s) + 9s) }
+@keyframes focus { 0%,100%{opacity:.46} 6%,12%{opacity:1} 20%{opacity:.46} }
+
+/* the lit chamber's status mark takes the one warm accent in the scene */
+.mark { animation:markPulse 42s ease-in-out infinite;
+        animation-delay:calc(var(--d,49s) + 9s) }
+@keyframes markPulse { 0%,100%{fill:#3a3f5c} 6%,12%{fill:#c9a88a} 20%{fill:#3a3f5c} }
+
+
+/* ═══════════════════════════════════════════════════════════════════════
+   ACCESSIBILITY — hold the finished composition, drop all motion
+   ═══════════════════════════════════════════════════════════════════════ */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after { animation:none !important }
+  .cue,#fold,#bloomLayer,#coreGlow,#cadence,#waveform,.chamber,.flow { opacity:1 }
+  .blade { transform:scale(1) rotate(0) }
+  .draw  { stroke-dashoffset:0 }
+  .grow,.wv { transform:scaleY(1) }
+  #etch rect { width:900px }
+}
+</style>
+
+<!-- ══ VOID ═══════════════════════════════════════════════════════════ -->
+<rect class="void" x="0" y="0" width="1200" height="760"/>
+<g id="bloomLayer">
+  <rect x="0" y="0" width="1200" height="760" fill="url(#bloom)"/>
+</g>
+
+<!-- sparse drift; each mote runs its own long cycle -->
+<g class="light" opacity=".55">
+  <circle class="p" cx="120"  cy="640" r="1.1" style="animation-duration:44s;animation-delay:0s"/>
+  <circle class="p" cx="300"  cy="720" r="0.9" style="animation-duration:58s;animation-delay:3s"/>
+  <circle class="p" cx="470"  cy="600" r="1.3" style="animation-duration:51s;animation-delay:8s"/>
+  <circle class="p" cx="640"  cy="700" r="0.8" style="animation-duration:63s;animation-delay:1s"/>
+  <circle class="p" cx="810"  cy="660" r="1.1" style="animation-duration:47s;animation-delay:6s"/>
+  <circle class="p" cx="980"  cy="730" r="1.0" style="animation-duration:55s;animation-delay:11s"/>
+  <circle class="p" cx="1110" cy="620" r="1.2" style="animation-duration:60s;animation-delay:4s"/>
+  <circle class="p" cx="210"  cy="500" r="0.9" style="animation-duration:66s;animation-delay:14s"/>
+  <circle class="p" cx="720"  cy="520" r="1.0" style="animation-duration:52s;animation-delay:19s"/>
+  <circle class="p" cx="900"  cy="470" r="0.8" style="animation-duration:70s;animation-delay:9s"/>
+  <circle class="p" cx="380"  cy="430" r="1.1" style="animation-duration:57s;animation-delay:24s"/>
+  <circle class="p" cx="1050" cy="380" r="0.9" style="animation-duration:64s;animation-delay:16s"/>
+  <circle class="p" cx="150"  cy="300" r="1.0" style="animation-duration:49s;animation-delay:21s"/>
+  <circle class="p" cx="560"  cy="200" r="0.8" style="animation-duration:68s;animation-delay:12s"/>
+  <circle class="p" cx="860"  cy="150" r="1.0" style="animation-duration:54s;animation-delay:27s"/>
+  <circle class="p" cx="260"  cy="120" r="0.9" style="animation-duration:61s;animation-delay:32s"/>
+</g>
+
+<!-- ══ HIGH-ALTITUDE ARCHITECTURE ═════════════════════════════════════
+     Long members assemble around The Fold from 8s onward. the "len" variable is the
+     path length used to draw each one in.                             -->
+<g class="lineS" stroke-width="1" opacity=".5">
+  <path class="draw" d="M0 96 H1200"   style="--len:1200;--d:8.4s"  opacity=".55"/>
+  <path class="draw" d="M0 150 H1200"  style="--len:1200;--d:9.0s"  opacity=".35"/>
+  <path class="draw" d="M0 610 H1200"  style="--len:1200;--d:9.6s"  opacity=".35"/>
+  <path class="draw" d="M0 664 H1200"  style="--len:1200;--d:10.2s" opacity=".55"/>
+  <path class="draw" d="M170 40 V720"  style="--len:680;--d:10.8s"  opacity=".28"/>
+  <path class="draw" d="M1030 40 V720" style="--len:680;--d:10.8s"  opacity=".28"/>
+  <path class="draw" d="M420 40 V300"  style="--len:260;--d:11.4s"  opacity=".22"/>
+  <path class="draw" d="M780 40 V300"  style="--len:260;--d:11.4s"  opacity=".22"/>
+  <!-- receding perspective floor -->
+  <path class="draw" d="M0 700 L340 610" style="--len:352;--d:12.0s" opacity=".20"/>
+  <path class="draw" d="M1200 700 L860 610" style="--len:352;--d:12.0s" opacity=".20"/>
+</g>
+<rect x="0" y="663" width="1200" height="1.4" fill="url(#horizon)" class="cue" style="--d:10.2s"/>
+
+<!-- rhythmic cadence: the pace of running, as light only -->
+<g id="cadence">
+  <rect x="0" y="94" width="1200" height="2.4" fill="url(#horizon)" opacity=".5"/>
+</g>
+
+<!-- ══ ENERGY FLOW — activity moving through the structure ════════════ -->
+<g>
+  <path class="flow" d="M0 96 H1200"   style="--d:30s"/>
+  <path class="flow" d="M0 664 H1200"  style="--d:34s"/>
+  <path class="flow" d="M0 150 H1200"  style="--d:38s"/>
+  <path class="flow" d="M0 610 H1200"  style="--d:42s"/>
+</g>
+
+<!-- structural growth: the record thickening, read as architecture -->
+<g class="sec" opacity=".34">
+  <rect class="grow" x="176" y="86" width="2" height="10" style="--d:29.0s"/>
+  <rect class="grow" x="204" y="78" width="2" height="18" style="--d:29.2s"/>
+  <rect class="grow" x="232" y="83" width="2" height="13" style="--d:29.4s"/>
+  <rect class="grow" x="260" y="72" width="2" height="24" style="--d:29.6s"/>
+  <rect class="grow" x="288" y="81" width="2" height="15" style="--d:29.8s"/>
+  <rect class="grow" x="316" y="67" width="2" height="29" style="--d:30.0s"/>
+  <rect class="grow" x="344" y="77" width="2" height="19" style="--d:30.2s"/>
+  <rect class="grow" x="372" y="85" width="2" height="11" style="--d:30.4s"/>
+  <rect class="grow" x="800" y="74" width="2" height="22" style="--d:30.6s"/>
+  <rect class="grow" x="828" y="82" width="2" height="14" style="--d:30.8s"/>
+  <rect class="grow" x="856" y="69" width="2" height="27" style="--d:31.0s"/>
+  <rect class="grow" x="884" y="79" width="2" height="17" style="--d:31.2s"/>
+  <rect class="grow" x="912" y="86" width="2" height="10" style="--d:31.4s"/>
+  <rect class="grow" x="940" y="75" width="2" height="21" style="--d:31.6s"/>
+  <rect class="grow" x="968" y="83" width="2" height="13" style="--d:31.8s"/>
+  <rect class="grow" x="996" y="71" width="2" height="25" style="--d:32.0s"/>
+</g>
+
+<!-- ══ THE FOLD ═══════════════════════════════════════════════════════
+     Eight blades hinged at a shared centre. Compact at 5s, unfolding
+     with weight through 13s, then living in a slow shifting state.    -->
+<g id="fold">
+  <g id="foldTurn">
+    <g transform="translate(600,250)">
+      <ellipse id="coreGlow" cx="0" cy="0" rx="150" ry="150" fill="url(#core)"/>
+
+      <g class="lineL" stroke-width="1" opacity=".55">
+        <g transform="rotate(0)">   <path class="blade" d="M0 0 L20 -56 L0 -172 L-20 -56 Z" style="--d:6.0s"/></g>
+        <g transform="rotate(45)">  <path class="blade" d="M0 0 L20 -56 L0 -172 L-20 -56 Z" style="--d:6.3s"/></g>
+        <g transform="rotate(90)">  <path class="blade" d="M0 0 L20 -56 L0 -172 L-20 -56 Z" style="--d:6.6s"/></g>
+        <g transform="rotate(135)"> <path class="blade" d="M0 0 L20 -56 L0 -172 L-20 -56 Z" style="--d:6.9s"/></g>
+        <g transform="rotate(180)"> <path class="blade" d="M0 0 L20 -56 L0 -172 L-20 -56 Z" style="--d:7.2s"/></g>
+        <g transform="rotate(225)"> <path class="blade" d="M0 0 L20 -56 L0 -172 L-20 -56 Z" style="--d:7.5s"/></g>
+        <g transform="rotate(270)"> <path class="blade" d="M0 0 L20 -56 L0 -172 L-20 -56 Z" style="--d:7.8s"/></g>
+        <g transform="rotate(315)"> <path class="blade" d="M0 0 L20 -56 L0 -172 L-20 -56 Z" style="--d:8.1s"/></g>
+      </g>
+
+      <!-- inner ring appears once the form is open -->
+      <circle class="lineS cue" cx="0" cy="0" r="62" stroke-width="1" opacity=".45"
+              style="--d:12.4s"/>
+      <!-- the one warm mark in the composition -->
+      <g transform="rotate(45)"><rect class="warm cue" x="-4.5" y="-4.5" width="9" height="9"
+            opacity=".9" style="--d:12.8s"/></g>
+    </g>
+  </g>
+</g>
+
+<!-- ══ IDENTITY ═══════════════════════════════════════════════════════ -->
+<clipPath id="etch"><rect x="150" y="440" width="0" height="52"/></clipPath>
+<text class="name" x="600" y="480" text-anchor="middle" clip-path="url(#etch)">NEIL THOMAS MATHEW</text>
+
+<text class="role  cue" x="600" y="510" text-anchor="middle" style="--d:18.4s">CS MAJOR &#183; BANGALORE</text>
+
+<!-- primary technical identity — the dominant message -->
+<text class="insc  cue" x="600" y="546" text-anchor="middle" style="--d:20.2s">SYSTEMS &#183; SECURITY &#183; AI INFRASTRUCTURE</text>
+
+<!-- first vision, taken verbatim from the aether-platform design premise -->
+<text class="insc2 cue" x="600" y="570" text-anchor="middle" style="--d:23.4s">EVERY FINDING A STRUCTURED CLAIM, BOUND TO THE ARTIFACT THAT PROVES IT</text>
+
+<!-- secondary mission, deliberately the quietest line in the scene -->
+<text class="minor cue" x="600" y="590" text-anchor="middle" style="--d:26.6s" opacity=".55">and a platform for game developers to ship together</text>
+
+<!-- ══ TECHNICAL DEPTH — stack as repeating structural motifs ═════════
+     To update the stack, edit these two rows only.                    -->
+<g id="stackBand">
+  <!-- Stack inscribed on the upper structure, split either side of The Fold.
+       To update the stack, edit these four lines only. -->
+  <g class="stack">
+    <text class="cue" x="300" y="122" text-anchor="middle" style="--d:29.4s">TYPESCRIPT &#8942; PYTHON &#8942; SQL &#8942; NEXT.JS</text>
+    <text class="cue" x="300" y="142" text-anchor="middle" style="--d:30.6s">REACT &#8942; NODE &#8942; TAILWIND &#8942; PRISMA</text>
+    <text class="cue" x="900" y="122" text-anchor="middle" style="--d:31.8s">POSTGRES &#8942; SUPABASE &#8942; DOCKER &#8942; OPENAI</text>
+    <text class="cue" x="900" y="142" text-anchor="middle" style="--d:33.0s">GEMINI &#8942; OPENCV &#8942; SCIKIT-LEARN &#8942; VERCEL</text>
+  </g>
+  <!-- capability inscriptions, projected as clean etched lines -->
+  <g class="lineS" stroke-width="1" opacity=".28">
+    <path class="draw" d="M120 156 H480"  style="--len:360;--d:38.2s"/>
+    <path class="draw" d="M720 156 H1080" style="--len:360;--d:39.0s"/>
+  </g>
+</g>
+
+<!-- ══ WAVEFORM — music, as faint light pattern only ═════════════════ -->
+<g id="waveform" class="sec" opacity=".22">
+  <g transform="translate(508,742)">
+    <rect class="wv" x="0"   y="-12" width="1.6" height="12" style="--d:0.0s"/>
+    <rect class="wv" x="7"   y="-12" width="1.6" height="12" style="--d:0.2s"/>
+    <rect class="wv" x="14"  y="-12" width="1.6" height="12" style="--d:0.4s"/>
+    <rect class="wv" x="21"  y="-12" width="1.6" height="12" style="--d:0.6s"/>
+    <rect class="wv" x="28"  y="-12" width="1.6" height="12" style="--d:0.8s"/>
+    <rect class="wv" x="35"  y="-12" width="1.6" height="12" style="--d:1.0s"/>
+    <rect class="wv" x="42"  y="-12" width="1.6" height="12" style="--d:1.2s"/>
+    <rect class="wv" x="49"  y="-12" width="1.6" height="12" style="--d:1.4s"/>
+    <rect class="wv" x="56"  y="-12" width="1.6" height="12" style="--d:1.6s"/>
+    <rect class="wv" x="63"  y="-12" width="1.6" height="12" style="--d:1.8s"/>
+    <rect class="wv" x="70"  y="-12" width="1.6" height="12" style="--d:2.0s"/>
+    <rect class="wv" x="77"  y="-12" width="1.6" height="12" style="--d:2.2s"/>
+    <rect class="wv" x="84"  y="-12" width="1.6" height="12" style="--d:2.4s"/>
+    <rect class="wv" x="91"  y="-12" width="1.6" height="12" style="--d:2.6s"/>
+    <rect class="wv" x="98"  y="-12" width="1.6" height="12" style="--d:2.8s"/>
+    <rect class="wv" x="105" y="-12" width="1.6" height="12" style="--d:1.1s"/>
+    <rect class="wv" x="112" y="-12" width="1.6" height="12" style="--d:0.5s"/>
+    <rect class="wv" x="119" y="-12" width="1.6" height="12" style="--d:1.7s"/>
+    <rect class="wv" x="126" y="-12" width="1.6" height="12" style="--d:0.9s"/>
+    <rect class="wv" x="133" y="-12" width="1.6" height="12" style="--d:2.3s"/>
+    <rect class="wv" x="140" y="-12" width="1.6" height="12" style="--d:0.3s"/>
+    <rect class="wv" x="147" y="-12" width="1.6" height="12" style="--d:1.5s"/>
+    <rect class="wv" x="154" y="-12" width="1.6" height="12" style="--d:2.7s"/>
+    <rect class="wv" x="161" y="-12" width="1.6" height="12" style="--d:0.7s"/>
+    <rect class="wv" x="168" y="-12" width="1.6" height="12" style="--d:1.9s"/>
+    <rect class="wv" x="175" y="-12" width="1.6" height="12" style="--d:1.3s"/>
+  </g>
+</g>
+
+<!-- ══ CHAMBERS ══════════════════════════════════════════════════════
+     One <g class="chamber"> per project. To add or edit a project,
+     copy a block and change x/y, the delay var, title, description, status.
+     Real data, read from the repositories on 2026-08-29.             -->
+<g>
+  <!-- ── aether-platform ───────────────────────────────────────────── -->
+  <g transform="translate(60,596)"><g class="chamber" style="--d:49.0s">
+    <rect class="form" x="0" y="0" width="348" height="58" rx="1"/>
+    <path class="lineS" d="M0 0 H348 M0 58 H348" stroke-width="1" opacity=".5"/>
+    <path class="lineL" d="M0 0 V58" stroke-width="1.4" opacity=".5"/>
+    <text class="chTtl" x="18" y="24">AETHER-PLATFORM</text>
+    <text class="chDsc" x="18" y="44">Evidence-first firmware analysis on Ghidra</text>
+    <text class="chSt" x="330" y="24" text-anchor="end">ACTIVE</text>
+    <rect class="mark" style="--d:49.0s" x="326" y="38" width="4" height="4"/>
+  </g></g>
+
+  <!-- ── overload-cusp-catastrophe ─────────────────────────────────── -->
+  <g transform="translate(426,596)"><g class="chamber" style="--d:50.4s">
+    <rect class="form" x="0" y="0" width="348" height="58" rx="1"/>
+    <path class="lineS" d="M0 0 H348 M0 58 H348" stroke-width="1" opacity=".5"/>
+    <path class="lineL" d="M0 0 V58" stroke-width="1.4" opacity=".5"/>
+    <text class="chTtl" x="18" y="24">OVERLOAD-CUSP</text>
+    <text class="chDsc" x="18" y="44">Cusp-catastrophe model of overload</text>
+    <text class="chSt" x="330" y="24" text-anchor="end">IEEE ARTEFACT</text>
+    <rect class="mark" style="--d:50.4s" x="326" y="38" width="4" height="4"/>
+  </g></g>
+
+  <!-- ── recoup-revenue-recovery ───────────────────────────────────── -->
+  <g transform="translate(792,596)"><g class="chamber" style="--d:51.8s">
+    <rect class="form" x="0" y="0" width="348" height="58" rx="1"/>
+    <path class="lineS" d="M0 0 H348 M0 58 H348" stroke-width="1" opacity=".5"/>
+    <path class="lineL" d="M0 0 V58" stroke-width="1.4" opacity=".5"/>
+    <text class="chTtl" x="18" y="24">RECOUP</text>
+    <text class="chDsc" x="18" y="44">Policy-gated payment recovery plane</text>
+    <text class="chSt" x="330" y="24" text-anchor="end">BUILDATHON</text>
+    <rect class="mark" style="--d:51.8s" x="326" y="38" width="4" height="4"/>
+  </g></g>
+
+  <!-- ── QUERO ─────────────────────────────────────────────────────── -->
+  <g transform="translate(60,664)"><g class="chamber" style="--d:53.2s">
+    <rect class="form" x="0" y="0" width="348" height="58" rx="1"/>
+    <path class="lineS" d="M0 0 H348 M0 58 H348" stroke-width="1" opacity=".5"/>
+    <path class="lineL" d="M0 0 V58" stroke-width="1.4" opacity=".5"/>
+    <text class="chTtl" x="18" y="24">QUERO</text>
+    <text class="chDsc" x="18" y="44">Agentic email client, streaming AI</text>
+    <text class="chSt" x="330" y="24" text-anchor="end">ACTIVE</text>
+    <rect class="mark" style="--d:53.2s" x="326" y="38" width="4" height="4"/>
+  </g></g>
+
+  <!-- ── ai-agent-workflow-builder ─────────────────────────────────── -->
+  <g transform="translate(426,664)"><g class="chamber" style="--d:54.6s">
+    <rect class="form" x="0" y="0" width="348" height="58" rx="1"/>
+    <path class="lineS" d="M0 0 H348 M0 58 H348" stroke-width="1" opacity=".5"/>
+    <path class="lineL" d="M0 0 V58" stroke-width="1.4" opacity=".5"/>
+    <text class="chTtl" x="18" y="24">AGENT-WORKFLOW-BUILDER</text>
+    <text class="chDsc" x="18" y="44">Chained AI agent workflow engine</text>
+    <text class="chSt" x="330" y="24" text-anchor="end">ACTIVE</text>
+    <rect class="mark" style="--d:54.6s" x="326" y="38" width="4" height="4"/>
+  </g></g>
+
+  <!-- ── warehouse-logistics-agent ─────────────────────────────────── -->
+  <g transform="translate(792,664)"><g class="chamber" style="--d:56.0s">
+    <rect class="form" x="0" y="0" width="348" height="58" rx="1"/>
+    <path class="lineS" d="M0 0 H348 M0 58 H348" stroke-width="1" opacity=".5"/>
+    <path class="lineL" d="M0 0 V58" stroke-width="1.4" opacity=".5"/>
+    <text class="chTtl" x="18" y="24">WAREHOUSE-LOGISTICS-AGENT</text>
+    <text class="chDsc" x="18" y="44">Autonomous logistics planning agent</text>
+    <text class="chSt" x="330" y="24" text-anchor="end">RESEARCH</text>
+    <rect class="mark" style="--d:56.0s" x="326" y="38" width="4" height="4"/>
+  </g></g>
+</g>
+
+<!-- ══ CONTACT — held at the extreme edge of the composition ═════════ -->
+<text class="edge cue" x="20"   y="752" style="--d:72s">NEILTHOMASMATHEW.VERCEL.APP</text>
+<text class="edge cue" x="1180" y="752" text-anchor="end" style="--d:72s">GITHUB.COM/N-3-0-L-D-3-V</text>
+</svg>
