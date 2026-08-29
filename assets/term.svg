@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 424" width="1000" height="424" fill="none" font-family="ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace">
+<style>
+  /* ── rosé pine ── */
+  .win   { fill:#191724; }
+  .bar   { fill:#1f1d2e; }
+  .edge  { stroke:#26233a; stroke-width:1; }
+  .dim   { fill:#6e6a86; }
+  .mute  { fill:#908caa; }
+  .text  { fill:#e0def4; }
+  .foam  { fill:#9ccfd8; }
+  .gold  { fill:#f6c177; }
+  .iris  { fill:#c4a7e7; }
+  .love  { fill:#eb6f92; }
+  .pine  { fill:#31748f; }
+  text   { font-size:15px; }
+  .sm    { font-size:12px; letter-spacing:1.2px; }
+  .blk   { font-size:13px; letter-spacing:1.6px; }
+  .ttl   { font-size:12.5px; }
+
+  .a { animation-duration:18s; animation-iteration-count:infinite; animation-timing-function:linear; }
+
+  @keyframes boot   { 0%,3%{opacity:0} 5%,100%{opacity:1} }
+  @keyframes lights { 0%,3%{opacity:0;transform:scale(.4)} 6%,100%{opacity:1;transform:scale(1)} }
+
+  @keyframes t1 { 0%,6%{width:0} 10%,100%{width:82px} }
+  @keyframes t2 { 0%,17%{width:0} 21%,100%{width:120px} }
+  @keyframes t3 { 0%,29%{width:0} 34%,100%{width:148px} }
+  @keyframes t4 { 0%,45%{width:0} 50%,100%{width:128px} }
+  @keyframes t5 { 0%,60%{width:0} 62%,100%{width:26px} }
+
+  @keyframes bars { 0%,7%{width:0} 15%,100%{width:248px} }
+  @keyframes okk  { 0%,15%{opacity:0} 17%,100%{opacity:1} }
+
+  @keyframes show { 0%{opacity:0;transform:translateY(4px)} 100%{opacity:1;transform:translateY(0)} }
+  .r  { opacity:0; transform-box:fill-box; animation-name:show; animation-duration:18s;
+        animation-iteration-count:infinite; animation-timing-function:linear; }
+  @keyframes rv22 { 0%,22%{opacity:0;transform:translateY(4px)} 24%,100%{opacity:1;transform:translateY(0)} }
+  @keyframes rv35 { 0%,35%{opacity:0;transform:translateY(4px)} 37%,100%{opacity:1;transform:translateY(0)} }
+  @keyframes rv38 { 0%,38%{opacity:0;transform:translateY(4px)} 40%,100%{opacity:1;transform:translateY(0)} }
+  @keyframes rv41 { 0%,41%{opacity:0;transform:translateY(4px)} 43%,100%{opacity:1;transform:translateY(0)} }
+  @keyframes rv44 { 0%,44%{opacity:0;transform:translateY(4px)} 46%,100%{opacity:1;transform:translateY(0)} }
+  @keyframes rv51 { 0%,51%{opacity:0;transform:translateY(4px)} 53%,100%{opacity:1;transform:translateY(0)} }
+  @keyframes rv66 { 0%,66%{opacity:0;transform:translateY(4px)} 68%,100%{opacity:1;transform:translateY(0)} }
+
+  @keyframes blink { 0%,71%{opacity:0} 72%,76%{opacity:1} 77%,81%{opacity:0}
+                     82%,86%{opacity:1} 87%,91%{opacity:0} 92%,96%{opacity:1} 97%,100%{opacity:0} }
+
+  @keyframes walk  { 0%,70%{transform:translateX(-60px)} 82%{transform:translateX(430px)}
+                     88%{transform:translateX(430px)} 100%{transform:translateX(1060px)} }
+  @keyframes step1 { 0%,70%{opacity:1} 71%{opacity:0} 72%{opacity:1}
+                     73%{opacity:0} 74%{opacity:1} 75%{opacity:0} 76%{opacity:1} 77%{opacity:0}
+                     78%{opacity:1} 79%{opacity:0} 80%{opacity:1} 81%{opacity:0} 82%,88%{opacity:1}
+                     89%{opacity:0} 90%{opacity:1} 91%{opacity:0} 92%{opacity:1} 93%{opacity:0}
+                     94%{opacity:1} 95%{opacity:0} 96%{opacity:1} 97%{opacity:0} 98%,100%{opacity:1} }
+  @keyframes step2 { 0%,70%{opacity:0} 71%{opacity:1} 72%{opacity:0} 73%{opacity:1} 74%{opacity:0}
+                     75%{opacity:1} 76%{opacity:0} 77%{opacity:1} 78%{opacity:0} 79%{opacity:1}
+                     80%{opacity:0} 81%{opacity:1} 82%,88%{opacity:0} 89%{opacity:1} 90%{opacity:0}
+                     91%{opacity:1} 92%{opacity:0} 93%{opacity:1} 94%{opacity:0} 95%{opacity:1}
+                     96%{opacity:0} 97%{opacity:1} 98%,100%{opacity:0} }
+  @keyframes tail  { 0%,70%{transform:rotate(0deg)} 74%{transform:rotate(-16deg)}
+                     78%{transform:rotate(6deg)} 82%{transform:rotate(-20deg)}
+                     86%{transform:rotate(4deg)} 90%{transform:rotate(-14deg)}
+                     94%{transform:rotate(8deg)} 100%{transform:rotate(0deg)} }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.35} }
+
+  #win     { opacity:0; animation-name:boot; }
+  .light   { opacity:0; transform-box:fill-box; transform-origin:center; animation-name:lights; }
+  clipPath rect { width:0; animation-duration:18s; animation-iteration-count:infinite;
+                  animation-timing-function:linear; }
+  #c1 rect { animation-name:t1; } #c2 rect { animation-name:t2; } #c3 rect { animation-name:t3; }
+  #c4 rect { animation-name:t4; } #c5 rect { animation-name:t5; }
+  #cb rect { animation-name:bars; }
+  .ok      { opacity:0; animation-name:okk; }
+  .v22{animation-name:rv22} .v35{animation-name:rv35} .v38{animation-name:rv38}
+  .v41{animation-name:rv41} .v44{animation-name:rv44} .v51{animation-name:rv51}
+  .v66{animation-name:rv66}
+  .cur     { opacity:0; animation-name:blink; }
+  #cat     { transform:translateX(-60px); animation-name:walk; }
+  .s1      { animation-name:step1; } .s2 { animation-name:step2; }
+  #tail    { transform-box:fill-box; transform-origin:right center; animation-name:tail; }
+  .dot     { animation-name:pulse; animation-duration:2.4s; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .a { animation: none !important; }
+    #win,.light,.ok,.r,.cur { opacity:1 !important; }
+    #c1 rect{width:82px} #c2 rect{width:120px} #c3 rect{width:148px}
+    #c4 rect{width:128px} #c5 rect{width:26px} #cb rect{width:248px}
+    #cat { transform:translateX(430px) }
+  }
+</style>
+
+<g id="win" class="a">
+  <rect class="win edge" x="1" y="1" width="998" height="422" rx="12"/>
+  <rect class="bar" x="1" y="1" width="998" height="38" rx="12"/>
+  <rect class="bar" x="1" y="27" width="998" height="12"/>
+  <path class="edge" d="M1 39 H999"/>
+  <circle class="light a love" cx="26" cy="20" r="5.5"/>
+  <circle class="light a gold" cx="46" cy="20" r="5.5"/>
+  <circle class="light a foam" cx="66" cy="20" r="5.5"/>
+  <text class="ttl dim" x="500" y="24" text-anchor="middle">neil@systems — ~/profile — zsh</text>
+
+  <clipPath id="cb"><rect x="152" y="60" width="0" height="18"/></clipPath>
+  <text class="dim" x="28" y="74">init</text>
+  <text class="blk" x="152" y="74" fill="#26233a">████████████████████████</text>
+  <text class="blk foam" x="152" y="74" clip-path="url(#cb)">████████████████████████</text>
+  <text class="ok a iris sm" x="416" y="74">ready</text>
+
+  <clipPath id="c1"><rect x="28" y="98" width="0" height="20"/></clipPath>
+  <g clip-path="url(#c1)"><text x="28" y="114"><tspan class="foam">$ </tspan><tspan class="text">whoami</tspan></text></g>
+  <text class="r a v22" x="28" y="140"><tspan class="mute">neil thomas mathew </tspan><tspan class="dim">· </tspan><tspan class="iris">cs major</tspan><tspan class="dim"> · bangalore</tspan></text>
+
+  <clipPath id="c2"><rect x="28" y="164" width="0" height="20"/></clipPath>
+  <g clip-path="url(#c2)"><text x="28" y="180"><tspan class="foam">$ </tspan><tspan class="text">ls shipped</tspan></text></g>
+  <text class="r a v44 dim sm" x="536" y="206">4 shipped</text>
+  <text class="r a v35 gold" x="28"  y="206">aether-platform</text>
+  <text class="r a v38 gold" x="196" y="206">overload-cusp</text>
+  <text class="r a v41 gold" x="346" y="206">recoup</text>
+  <text class="r a v44 gold" x="440" y="206">quero</text>
+
+  <clipPath id="c3"><rect x="28" y="230" width="0" height="20"/></clipPath>
+  <g clip-path="url(#c3)"><text x="28" y="246"><tspan class="foam">$ </tspan><tspan class="text">stack --short</tspan></text></g>
+  <text class="r a v51" x="28" y="272"><tspan class="mute">typescript python react next</tspan><tspan class="dim"> · </tspan><tspan class="mute">postgres docker gcp</tspan></text>
+
+  <clipPath id="c4"><rect x="28" y="296" width="0" height="20"/></clipPath>
+  <g clip-path="url(#c4)"><text x="28" y="312"><tspan class="foam">$ </tspan><tspan class="text">cat now.txt</tspan></text></g>
+  <text class="r a v66 mute" x="28" y="338">building a platform for game devs to ship together</text>
+
+  <clipPath id="c5"><rect x="28" y="352" width="0" height="20"/></clipPath>
+  <g clip-path="url(#c5)"><text x="28" y="368"><tspan class="foam">$ </tspan></text></g>
+  <rect class="cur a foam" x="44" y="354" width="9" height="17" rx="1"/>
+
+  <path class="edge" d="M1 384 H999"/>
+  <rect class="bar" x="1" y="385" width="998" height="38" rx="12"/>
+  <rect class="bar" x="1" y="385" width="998" height="20"/>
+  <text class="sm iris" x="28" y="410">NORMAL</text>
+  <circle class="dot a foam" cx="104" cy="405" r="3.5"/>
+  <text class="sm mute" x="118" y="410">building</text>
+  <text class="sm dim" x="972" y="410" text-anchor="end">main · utf-8 · 100%</text>
+
+  <g id="cat" class="a">
+    <g transform="translate(0,366) scale(1.3)">
+      <path id="tail" class="a foam" d="M2 8 C-6 6 -7 -1 -1 -3 L1 -1 C-3 0 -3 4 3 5 Z" opacity=".9"/>
+      <rect class="foam" x="2" y="4" width="17" height="8" rx="3.4"/>
+      <circle class="foam" cx="21" cy="5.5" r="4.6"/>
+      <path class="foam" d="M17.6 2.2 L18.2 -1.6 L20.6 1 Z"/>
+      <path class="foam" d="M23.8 1.1 L25 -2.3 L26 1.9 Z"/>
+      <circle class="win" cx="22.6" cy="5" r=".85"/>
+      <g class="s1 a"><rect class="foam" x="4"  y="11" width="2.4" height="3.4" rx="1"/>
+                      <rect class="foam" x="14" y="11" width="2.4" height="3.4" rx="1"/></g>
+      <g class="s2 a"><rect class="foam" x="8"  y="11" width="2.4" height="3.4" rx="1"/>
+                      <rect class="foam" x="17" y="11" width="2.4" height="3.4" rx="1"/></g>
+    </g>
+  </g>
+</g>
+</svg>
