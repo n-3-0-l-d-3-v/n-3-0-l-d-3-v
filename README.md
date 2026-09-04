@@ -1,3 +1,6 @@
-<h1>Hi, I'm Neil 
-<a href="https://your-site.com"><img src="https://img.icons8.com/?size=24&id=999&format=png&color=FFFFFF" width="20"/></a>
+<h1>
+  Hi, I'm Neil
+  <a href="https://your-site.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/External-link.svg" width="22" height="22" />
+  </a>
 </h1>
