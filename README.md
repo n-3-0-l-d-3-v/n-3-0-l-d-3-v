@@ -4,3 +4,7 @@
     <img src="./assets/arrow.svg" width="30"/>
   </a>
 </h1>
+
+<p align="center">
+  <img src="./assets/video-screen.svg" width="700" alt="video placeholder" />
+</p>
