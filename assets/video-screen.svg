@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540"
+     fill="none" role="img" aria-label="Video placeholder screen, 16:9">
+<style>
+.pulse { animation: pulse 2.8s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 50%; }
+@keyframes pulse { 0%,100% { opacity: .55 } 50% { opacity: .95 } }
+@media (prefers-reduced-motion: reduce) {
+  .pulse { animation: none; opacity: .8 }
+}
+</style>
+<rect x="1" y="1" width="958" height="538" rx="20" fill="#0c0c14" stroke="#3a3f5c" stroke-width="1.5"/>
+<rect x="17" y="17" width="926" height="506" rx="12" fill="#050508"/>
+<g class="pulse" transform="translate(480,270)">
+  <polygon points="-22,-32 -22,32 34,0" fill="#a8b4c8"/>
+</g>
+</svg>
