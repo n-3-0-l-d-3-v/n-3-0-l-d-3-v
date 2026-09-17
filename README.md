@@ -5,6 +5,6 @@
   </a>
 </h1>
 
-<p align="center">
+<!-- <p align="center">
   <img src="./assets/video-screen.svg" width="700" alt="video placeholder" />
-</p>
+</p> -->
